@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MagRSS</string>
+    <string name="tab_text_1">Train</string>
+    <string name="tab_text_2">Test</string>
+    <string name="train_switch_text">Train</string>
+    <string name="train_label_text">Training</string>
+    <string name="onRoad_button_text">On Road</string>
+    <string name="onSidewalk_button_text">On Sidewalk</string>
+    <string name="lte_text">LTE</string>
+    <string name="lte_rsrp_label_text">RSRP: </string>
+    <string name="lte_cqi_label_text">CQI: </string>
+    <string name="lte_dbm_label_text">dBm: </string>
+    <string name="lte_asu_label_text">ASU: </string>
+    <string name="lte_rsrq_label_text">RSRQ: </string>
+    <string name="lte_rssnr_label_text">RSSNR: </string>
+    <string name="gps_text">GPS</string>
+    <string name="gps_lat">Lat:</string>
+    <string name="gps_lon">Lon:</string>
+    <string name="gps_acc">Acc:</string>
+    <string name="mag_text">Magnetometer</string>
+    <string name="mag_x_text">X:</string>
+    <string name="mag_y_text">Y:</string>
+    <string name="mag_z_text">Z:</string>
+    <string name="heading_text">Heading</string>
+    <string name="heading_deg_text">N:</string>
+</resources>
