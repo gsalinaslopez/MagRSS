@@ -1,0 +1,3 @@
+iteration,loss,acc,binary_crossentropy,val_loss,val_acc,val_binary_crossentropy
+python bpnn_2.py --train_file /home/gio/Workspace/MagRss/tf/train/files/m1/master_8.csv --dbm --epochs 1000 --batch_size 1 --tensorboard --features lat lon bear heading magx_lowess magy_lowess magz_lowess mag_lowess --layer dense 128 None None --layer dense 128 None None,8.1927,0.4657,8.1928,8.2840,0.4597,8.2840
+python bpnn_2.py --train_file /home/gio/Workspace/MagRss/tf/train/files/m1/master_8.csv --dbm --epochs 1000 --batch_size 1 --tensorboard --features lat lon bear heading magx_lowess magy_lowess magz_lowess mag_lowess --layer dense 128 None 0.2 --layer dense 128 None 0.2,8.1297,0.4698,8.1298,8.5360,0.4433,8.5360

@@ -1,0 +1,1503 @@
+b'{"steps" : 3, "gps" : {"lat" : 24.7895763, "lon" : 120.9954602, "acc" : 4.0}, "cell" : [{"pci" : 248, "val" : -99}, {"pci" : 246, "val" : -106}, {"pci" : 243, "val" : -116}]}\n'
+updating center...
+{'lat': 24.7895763, 'lon': 120.9954602, 'acc': 4.0} --- [{'pci': 248, 'val': -99}, {'pci': 246, 'val': -106}, {'pci': 243, 'val': -116}]
+--------------------------
+b'{"steps" : 6, "gps" : {"lat" : 24.7895181, "lon" : 120.995452, "acc" : 4.0}, "cell" : [{"pci" : 248, "val" : -93}, {"pci" : 246, "val" : -108}]}\n'
+1
+last cell: {'pci': 248, 'val': -99}
+read cell: {'pci': 248, 'val': -93}
+towards: 248
+comparing areas (0, 0) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, 259.83397169829925)
+
+recently left from 243
+away from: 243
+comparing areas (79.83397169829928, 259.83397169829925) and (-157.32793163209777, 22.672068367902227)
+(79.83397169829928, -100.16602830170075)
+
+last cell: {'pci': 246, 'val': -106}
+read cell: {'pci': 246, 'val': -108}
+static at: 246
+comparing areas (79.83397169829928, -100.16602830170075) and (79.83397169829928, -100.16602830170075)
+(79.83397169829928, -100.16602830170075)
+
+recently left from 243
+away from: 243
+comparing areas (79.83397169829928, -100.16602830170075) and (-157.32793163209777, 22.672068367902227)
+(79.83397169829928, -100.16602830170075)
+
+final computed area:(79.83397169829928, -100.16602830170075)
+using backup area count: 1.(79.83397169829928, -100.16602830170075) and 1.(79.83397169829928, -100.16602830170075)--- len: 1
+
+var center = new google.maps.Marker({                    position: {lat: 24.7895763, lng: 120.9954602},                    map: map});
+var circle = new google.maps.Circle({                    strokeColor: '#FF0000',                    strokeOpacity: 0.8,                    strokeWeight: 0.5,                    fillColor: '#FF0000',                    fillOpacity: 0.02,                    map: map,                    center: {lat: 24.7895763, lng: 120.9954602},                    radius: 10.5664});
+var tan1 = new google.maps.Marker({                    position: {lat: 24.78955952777977, lng: 120.9953571723513},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "42F453",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan2 = new google.maps.Marker({                    position: {lat: 24.78959307214971, lng: 120.99556322767648},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4542F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan3 = new google.maps.Marker({                    position: {lat: 24.78955952777977, lng: 120.9953571723513},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41F476",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan4 = new google.maps.Marker({                    position: {lat: 24.78959307214971, lng: 120.99556322767648},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4286F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan5 = new google.maps.Marker({                    position: {lat: 24.78955952777977, lng: 120.9953571723513},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41f491",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan6 = new google.maps.Marker({                    position: {lat: 24.78959307214971, lng: 120.99556322767648},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41E5F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var user = new google.maps.Marker({                    position: {lat: 24.7895181, lng: 120.995452},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "F4F142",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+
+1
+--------------------------
+b'{"steps" : 24, "gps" : {"lat" : 24.7893621, "lon" : 120.9954554, "acc" : 3.9}, "cell" : [{"pci" : 248, "val" : -93}, {"pci" : 246, "val" : -108}]}\n'
+2
+last cell: {'pci': 248, 'val': -99}
+read cell: {'pci': 248, 'val': -93}
+towards: 248
+comparing areas (0, 0) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, 259.83397169829925)
+
+recently left from 243
+away from: 243
+comparing areas (79.83397169829928, 259.83397169829925) and (-157.32793163209777, 22.672068367902227)
+(79.83397169829928, -100.16602830170075)
+
+last cell: {'pci': 246, 'val': -106}
+read cell: {'pci': 246, 'val': -108}
+static at: 246
+comparing areas (79.83397169829928, -100.16602830170075) and (79.83397169829928, -100.16602830170075)
+(79.83397169829928, -100.16602830170075)
+
+recently left from 243
+away from: 243
+comparing areas (79.83397169829928, -100.16602830170075) and (-157.32793163209777, 22.672068367902227)
+(79.83397169829928, -100.16602830170075)
+
+final computed area:(79.83397169829928, -100.16602830170075)
+using backup area count: 1.(79.83397169829928, -100.16602830170075) and 1.(79.83397169829928, -100.16602830170075)--- len: 2
+
+var center = new google.maps.Marker({                    position: {lat: 24.7895763, lng: 120.9954602},                    map: map});
+var circle = new google.maps.Circle({                    strokeColor: '#FF0000',                    strokeOpacity: 0.8,                    strokeWeight: 0.5,                    fillColor: '#FF0000',                    fillOpacity: 0.02,                    map: map,                    center: {lat: 24.7895763, lng: 120.9954602},                    radius: 25.196800000000003});
+var tan1 = new google.maps.Marker({                    position: {lat: 24.78953630458918, lng: 120.99521451872988},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "42F453",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan2 = new google.maps.Marker({                    position: {lat: 24.78961629500981, lng: 120.99570588142853},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4542F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan3 = new google.maps.Marker({                    position: {lat: 24.78953630458918, lng: 120.99521451872988},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41F476",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan4 = new google.maps.Marker({                    position: {lat: 24.78961629500981, lng: 120.99570588142853},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4286F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan5 = new google.maps.Marker({                    position: {lat: 24.78953630458918, lng: 120.99521451872988},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41f491",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan6 = new google.maps.Marker({                    position: {lat: 24.78961629500981, lng: 120.99570588142853},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41E5F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var user = new google.maps.Marker({                    position: {lat: 24.7893621, lng: 120.9954554},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "F4F142",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+
+2
+--------------------------
+b'{"steps" : 42, "gps" : {"lat" : 24.7892022, "lon" : 120.9954557, "acc" : 3.9}, "cell" : [{"pci" : 248, "val" : -96}, {"pci" : 246, "val" : -105}, {"pci" : 243, "val" : -106}]}\n'
+3
+last cell: {'pci': 248, 'val': -99}
+read cell: {'pci': 248, 'val': -96}
+towards: 248
+comparing areas (0, 0) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, 259.83397169829925)
+
+last cell: {'pci': 246, 'val': -106}
+read cell: {'pci': 246, 'val': -105}
+static at: 246
+comparing areas (79.83397169829928, 259.83397169829925) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, -100.16602830170075)
+
+last cell: {'pci': 243, 'val': -116}
+read cell: {'pci': 243, 'val': -106}
+conflict in orientations between current read and 1
+conflict in orientations between current read and 2
+static at: 243
+comparing areas (79.83397169829928, -100.16602830170075) and (360, 360)
+(360, 360)
+
+final computed area:(360, 360)
+using backup area count: 1.(79.83397169829928, -100.16602830170075) and 2.(79.83397169829928, -100.16602830170075)--- len: 3
+
+var center = new google.maps.Marker({                    position: {lat: 24.7895763, lng: 120.9954602},                    map: map});
+var circle = new google.maps.Circle({                    strokeColor: '#FF0000',                    strokeOpacity: 0.8,                    strokeWeight: 0.5,                    fillColor: '#FF0000',                    fillOpacity: 0.02,                    map: map,                    center: {lat: 24.7895763, lng: 120.9954602},                    radius: 39.8272});
+var tan1 = new google.maps.Marker({                    position: {lat: 24.789934474614633, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "42F453",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan2 = new google.maps.Marker({                    position: {lat: 24.789934474614633, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4542F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan3 = new google.maps.Marker({                    position: {lat: 24.789513081263397, lng: 120.99507186516189},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41F476",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan4 = new google.maps.Marker({                    position: {lat: 24.78963951773472, lng: 120.99584853523379},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4286F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan5 = new google.maps.Marker({                    position: {lat: 24.789513081263397, lng: 120.99507186516189},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41f491",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan6 = new google.maps.Marker({                    position: {lat: 24.78963951773472, lng: 120.99584853523379},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41E5F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var user = new google.maps.Marker({                    position: {lat: 24.7892022, lng: 120.9954557},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "F4F142",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+
+3
+--------------------------
+b'{"steps" : 60, "gps" : {"lat" : 24.7890871, "lon" : 120.9954169, "acc" : 3.9}, "cell" : [{"pci" : 248, "val" : -92}, {"pci" : 246, "val" : -108}, {"pci" : 243, "val" : -107}]}\n'
+4
+last cell: {'pci': 248, 'val': -99}
+read cell: {'pci': 248, 'val': -92}
+towards: 248
+comparing areas (0, 0) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, 259.83397169829925)
+
+last cell: {'pci': 246, 'val': -106}
+read cell: {'pci': 246, 'val': -108}
+static at: 246
+comparing areas (79.83397169829928, 259.83397169829925) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, -100.16602830170075)
+
+last cell: {'pci': 243, 'val': -116}
+read cell: {'pci': 243, 'val': -107}
+conflict in orientations between current read and 2
+static at: 243
+comparing areas (79.83397169829928, -100.16602830170075) and (360, 360)
+(360, 360)
+
+final computed area:(360, 360)
+using backup area count: 1.(79.83397169829928, -100.16602830170075) and 2.(79.83397169829928, -100.16602830170075)--- len: 4
+
+var center = new google.maps.Marker({                    position: {lat: 24.7895763, lng: 120.9954602},                    map: map});
+var circle = new google.maps.Circle({                    strokeColor: '#FF0000',                    strokeOpacity: 0.8,                    strokeWeight: 0.5,                    fillColor: '#FF0000',                    fillOpacity: 0.02,                    map: map,                    center: {lat: 24.7895763, lng: 120.9954602},                    radius: 54.4576});
+var tan1 = new google.maps.Marker({                    position: {lat: 24.790066048962867, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "42F453",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan2 = new google.maps.Marker({                    position: {lat: 24.790066048962867, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4542F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan3 = new google.maps.Marker({                    position: {lat: 24.789489857802412, lng: 120.99492921164733},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41F476",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan4 = new google.maps.Marker({                    position: {lat: 24.78966274032442, lng: 120.99599118909259},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4286F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan5 = new google.maps.Marker({                    position: {lat: 24.789489857802412, lng: 120.99492921164733},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41f491",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan6 = new google.maps.Marker({                    position: {lat: 24.78966274032442, lng: 120.99599118909259},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41E5F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var user = new google.maps.Marker({                    position: {lat: 24.7890871, lng: 120.9954169},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "F4F142",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+
+4
+--------------------------
+b'{"steps" : 77, "gps" : {"lat" : 24.7889868, "lon" : 120.9953914, "acc" : 3.9}, "cell" : [{"pci" : 248, "val" : -100}, {"pci" : 246, "val" : -103}, {"pci" : 243, "val" : -113}]}\n'
+5
+last cell: {'pci': 248, 'val': -99}
+read cell: {'pci': 248, 'val': -100}
+static at: 248
+comparing areas (0, 0) and (0, 0)
+(0, 0)
+
+last cell: {'pci': 246, 'val': -106}
+read cell: {'pci': 246, 'val': -103}
+towards: 246
+comparing areas (0, 0) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, 259.83397169829925)
+
+last cell: {'pci': 243, 'val': -116}
+read cell: {'pci': 243, 'val': -113}
+towards: 243
+comparing areas (79.83397169829928, 259.83397169829925) and (22.672068367902227, 202.67206836790223)
+(79.83397169829928, -157.32793163209777)
+
+final computed area:(79.83397169829928, -157.32793163209777)
+using backup area count: 2.(79.83397169829928, -100.16602830170075) and 3.(360, 360)--- len: 5
+
+var center = new google.maps.Marker({                    position: {lat: 24.7895763, lng: 120.9954602},                    map: map});
+var circle = new google.maps.Circle({                    strokeColor: '#FF0000',                    strokeOpacity: 0.8,                    strokeWeight: 0.5,                    fillColor: '#FF0000',                    fillOpacity: 0.02,                    map: map,                    center: {lat: 24.7895763, lng: 120.9954602},                    radius: 68.27520000000001});
+var tan1 = new google.maps.Marker({                    position: {lat: 24.789009733371334, lng: 120.9951995034852},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "42F453",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan2 = new google.maps.Marker({                    position: {lat: 24.789684672646118, lng: 120.996125917786},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4542F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan3 = new google.maps.Marker({                    position: {lat: 24.789467924409568, lng: 120.99479448337706},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41F476",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan4 = new google.maps.Marker({                    position: {lat: 24.789684672646118, lng: 120.996125917786},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4286F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan5 = new google.maps.Marker({                    position: {lat: 24.790190313625086, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41f491",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan6 = new google.maps.Marker({                    position: {lat: 24.790190313625086, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41E5F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var user = new google.maps.Marker({                    position: {lat: 24.7889868, lng: 120.9953914},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "F4F142",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+
+5
+--------------------------
+b'{"steps" : 95, "gps" : {"lat" : 24.7888959, "lon" : 120.995397, "acc" : 4.0}, "cell" : [{"pci" : 248, "val" : -96}, {"pci" : 246, "val" : -106}, {"pci" : 243, "val" : -113}]}\n'
+6
+last cell: {'pci': 248, 'val': -99}
+read cell: {'pci': 248, 'val': -96}
+towards: 248
+comparing areas (0, 0) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, 259.83397169829925)
+
+last cell: {'pci': 246, 'val': -106}
+read cell: {'pci': 246, 'val': -106}
+static at: 246
+comparing areas (79.83397169829928, 259.83397169829925) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, -100.16602830170075)
+
+last cell: {'pci': 243, 'val': -116}
+read cell: {'pci': 243, 'val': -113}
+towards: 243
+comparing areas (79.83397169829928, -100.16602830170075) and (22.672068367902227, 202.67206836790223)
+(79.83397169829928, -157.32793163209777)
+
+final computed area:(79.83397169829928, -157.32793163209777)
+using backup area count: 3.(360, 360) and 4.(360, 360)--- len: 6
+
+var center = new google.maps.Marker({                    position: {lat: 24.7895763, lng: 120.9954602},                    map: map});
+var circle = new google.maps.Circle({                    strokeColor: '#FF0000',                    strokeOpacity: 0.8,                    strokeWeight: 0.5,                    fillColor: '#FF0000',                    fillOpacity: 0.02,                    map: map,                    center: {lat: 24.7895763, lng: 120.9954602},                    radius: 82.90559999999999});
+var tan1 = new google.maps.Marker({                    position: {lat: 24.788888326177872, lng: 120.99514364025606},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "42F453",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan2 = new google.maps.Marker({                    position: {lat: 24.78970789497294, lng: 120.99626857174871},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4542F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan3 = new google.maps.Marker({                    position: {lat: 24.790321887973317, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41F476",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan4 = new google.maps.Marker({                    position: {lat: 24.790321887973317, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4286F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan5 = new google.maps.Marker({                    position: {lat: 24.790321887973317, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41f491",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan6 = new google.maps.Marker({                    position: {lat: 24.790321887973317, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41E5F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var user = new google.maps.Marker({                    position: {lat: 24.7888959, lng: 120.995397},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "F4F142",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+
+6
+--------------------------
+b'{"steps" : 112, "gps" : {"lat" : 24.7888137, "lon" : 120.9954095, "acc" : 4.0}, "cell" : [{"pci" : 248, "val" : -94}, {"pci" : 246, "val" : -108}]}\n'
+7
+last cell: {'pci': 248, 'val': -99}
+read cell: {'pci': 248, 'val': -94}
+towards: 248
+comparing areas (0, 0) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, 259.83397169829925)
+
+recently left from 243
+conflict in orientations between current read and 5
+conflict in orientations between current read and 6
+static at: 243
+comparing areas (79.83397169829928, 259.83397169829925) and (360, 360)
+(360, 360)
+
+last cell: {'pci': 246, 'val': -106}
+read cell: {'pci': 246, 'val': -108}
+static at: 246
+comparing areas (360, 360) and (360, 360)
+(360, 360)
+
+recently left from 243
+conflict in orientations between current read and 5
+conflict in orientations between current read and 6
+static at: 243
+comparing areas (360, 360) and (360, 360)
+(360, 360)
+
+final computed area:(360, 360)
+using backup area count: 4.(360, 360) and 5.(79.83397169829928, -157.32793163209777)--- len: 7
+
+var center = new google.maps.Marker({                    position: {lat: 24.7895763, lng: 120.9954602},                    map: map});
+var circle = new google.maps.Circle({                    strokeColor: '#FF0000',                    strokeOpacity: 0.8,                    strokeWeight: 0.5,                    fillColor: '#FF0000',                    fillOpacity: 0.02,                    map: map,                    center: {lat: 24.7895763, lng: 120.9954602},                    radius: 96.7232});
+var tan1 = new google.maps.Marker({                    position: {lat: 24.79044615263554, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "42F453",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan2 = new google.maps.Marker({                    position: {lat: 24.79044615263554, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4542F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan3 = new google.maps.Marker({                    position: {lat: 24.79044615263554, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41F476",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan4 = new google.maps.Marker({                    position: {lat: 24.79044615263554, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4286F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan5 = new google.maps.Marker({                    position: {lat: 24.788773663809465, lng: 120.99509088064008},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41f491",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan6 = new google.maps.Marker({                    position: {lat: 24.789729827046347, lng: 120.99640330054012},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41E5F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var user = new google.maps.Marker({                    position: {lat: 24.7888137, lng: 120.9954095},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "F4F142",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+
+7
+--------------------------
+b'{"steps" : 129, "gps" : {"lat" : 24.7886545, "lon" : 120.9954091, "acc" : 4.0}, "cell" : [{"pci" : 248, "val" : -91}, {"pci" : 246, "val" : -108}]}\n'
+8
+last cell: {'pci': 248, 'val': -99}
+read cell: {'pci': 248, 'val': -91}
+towards: 248
+comparing areas (0, 0) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, 259.83397169829925)
+
+recently left from 243
+conflict in orientations between current read and 6
+static at: 243
+comparing areas (79.83397169829928, 259.83397169829925) and (360, 360)
+(360, 360)
+
+last cell: {'pci': 246, 'val': -106}
+read cell: {'pci': 246, 'val': -108}
+static at: 246
+comparing areas (360, 360) and (360, 360)
+(360, 360)
+
+recently left from 243
+conflict in orientations between current read and 6
+static at: 243
+comparing areas (360, 360) and (360, 360)
+(360, 360)
+
+final computed area:(360, 360)
+using backup area count: 5.(79.83397169829928, -157.32793163209777) and 6.(79.83397169829928, -157.32793163209777)--- len: 8
+
+var center = new google.maps.Marker({                    position: {lat: 24.7895763, lng: 120.9954602},                    map: map});
+var circle = new google.maps.Circle({                    strokeColor: '#FF0000',                    strokeOpacity: 0.8,                    strokeWeight: 0.5,                    fillColor: '#FF0000',                    fillOpacity: 0.02,                    map: map,                    center: {lat: 24.7895763, lng: 120.9954602},                    radius: 110.5408});
+var tan1 = new google.maps.Marker({                    position: {lat: 24.790570417297754, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "42F453",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan2 = new google.maps.Marker({                    position: {lat: 24.790570417297754, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4542F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan3 = new google.maps.Marker({                    position: {lat: 24.78865900142256, lng: 120.99503812112164},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41F476",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan4 = new google.maps.Marker({                    position: {lat: 24.789751758999163, lng: 120.9965380293794},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4286F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan5 = new google.maps.Marker({                    position: {lat: 24.78865900142256, lng: 120.99503812112164},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41f491",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan6 = new google.maps.Marker({                    position: {lat: 24.789751758999163, lng: 120.9965380293794},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41E5F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var user = new google.maps.Marker({                    position: {lat: 24.7886545, lng: 120.9954091},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "F4F142",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+
+8
+--------------------------
+b'{"steps" : 147, "gps" : {"lat" : 24.7885217, "lon" : 120.9954181, "acc" : 5.0}, "cell" : [{"pci" : 248, "val" : -93}, {"pci" : 244, "val" : -109}]}\n'
+9
+last cell: {'pci': 248, 'val': -99}
+read cell: {'pci': 248, 'val': -93}
+towards: 248
+comparing areas (0, 0) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, 259.83397169829925)
+
+recently left from 246
+conflict in orientations between current read and 9
+static at: 246
+comparing areas (79.83397169829928, 259.83397169829925) and (360, 360)
+(360, 360)
+
+recently left from 243
+away from: 243
+comparing areas (360, 360) and (-157.32793163209777, 22.672068367902227)
+(360, 360)
+
+recently entered into 244
+towards: 244
+comparing areas (360, 360) and (71.12223981515365, 251.12223981515365)
+(360, 360)
+
+final computed area:(360, 360)
+using backup area count: 6.(79.83397169829928, -157.32793163209777) and 7.(360, 360)--- len: 9
+
+var center = new google.maps.Marker({                    position: {lat: 24.7895763, lng: 120.9954602},                    map: map});
+var circle = new google.maps.Circle({                    strokeColor: '#FF0000',                    strokeOpacity: 0.8,                    strokeWeight: 0.5,                    fillColor: '#FF0000',                    fillOpacity: 0.02,                    map: map,                    center: {lat: 24.7895763, lng: 120.9954602},                    radius: 125.17120000000001});
+var tan1 = new google.maps.Marker({                    position: {lat: 24.79070199164599, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "42F453",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan2 = new google.maps.Marker({                    position: {lat: 24.79070199164599, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4542F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan3 = new google.maps.Marker({                    position: {lat: 24.788537594169206, lng: 120.99498225820832},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41F476",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan4 = new google.maps.Marker({                    position: {lat: 24.789774980935405, lng: 120.99668068349627},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4286F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan5 = new google.maps.Marker({                    position: {lat: 24.79070199164599, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41f491",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan6 = new google.maps.Marker({                    position: {lat: 24.79070199164599, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41E5F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var user = new google.maps.Marker({                    position: {lat: 24.7885217, lng: 120.9954181},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "F4F142",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+
+9
+--------------------------
+b'{"steps" : 171, "gps" : {"lat" : 24.7884012, "lon" : 120.9953668, "acc" : 5.0}, "cell" : [{"pci" : 248, "val" : -87}]}\n'
+10
+last cell: {'pci': 248, 'val': -99}
+read cell: {'pci': 248, 'val': -87}
+towards: 248
+comparing areas (0, 0) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, 259.83397169829925)
+
+recently left from 246
+conflict in orientations between current read and 10
+static at: 246
+comparing areas (79.83397169829928, 259.83397169829925) and (360, 360)
+(360, 360)
+
+recently left from 243
+away from: 243
+comparing areas (360, 360) and (-157.32793163209777, 22.672068367902227)
+(360, 360)
+
+final computed area:(360, 360)
+using backup area count: 7.(360, 360) and 8.(360, 360)--- len: 10
+
+var center = new google.maps.Marker({                    position: {lat: 24.7895763, lng: 120.9954602},                    map: map});
+var circle = new google.maps.Circle({                    strokeColor: '#FF0000',                    strokeOpacity: 0.8,                    strokeWeight: 0.5,                    fillColor: '#FF0000',                    fillOpacity: 0.02,                    map: map,                    center: {lat: 24.7895763, lng: 120.9954602},                    radius: 144.6784});
+var tan1 = new google.maps.Marker({                    position: {lat: 24.7908774241103, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "42F453",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan2 = new google.maps.Marker({                    position: {lat: 24.7908774241103, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4542F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan3 = new google.maps.Marker({                    position: {lat: 24.7908774241103, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41F476",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan4 = new google.maps.Marker({                    position: {lat: 24.7908774241103, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4286F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan5 = new google.maps.Marker({                    position: {lat: 24.7908774241103, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41f491",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan6 = new google.maps.Marker({                    position: {lat: 24.7908774241103, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41E5F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var user = new google.maps.Marker({                    position: {lat: 24.7884012, lng: 120.9953668},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "F4F142",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+
+10
+--------------------------
+b'{"steps" : 198, "gps" : {"lat" : 24.7881882, "lon" : 120.9954217, "acc" : 3.9}, "cell" : [{"pci" : 248, "val" : -90}, {"pci" : 246, "val" : -102}]}\n'
+11
+last cell: {'pci': 248, 'val': -99}
+read cell: {'pci': 248, 'val': -90}
+towards: 248
+comparing areas (0, 0) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, 259.83397169829925)
+
+recently left from 243
+away from: 243
+comparing areas (79.83397169829928, 259.83397169829925) and (-157.32793163209777, 22.672068367902227)
+(79.83397169829928, -100.16602830170075)
+
+last cell: {'pci': 246, 'val': -106}
+read cell: {'pci': 246, 'val': -102}
+towards: 246
+comparing areas (79.83397169829928, -100.16602830170075) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, -100.16602830170075)
+
+recently left from 243
+away from: 243
+comparing areas (79.83397169829928, -100.16602830170075) and (-157.32793163209777, 22.672068367902227)
+(79.83397169829928, -100.16602830170075)
+
+final computed area:(79.83397169829928, -100.16602830170075)
+using backup area count: 8.(360, 360) and 9.(360, 360)--- len: 11
+
+var center = new google.maps.Marker({                    position: {lat: 24.7895763, lng: 120.9954602},                    map: map});
+var circle = new google.maps.Circle({                    strokeColor: '#FF0000',                    strokeOpacity: 0.8,                    strokeWeight: 0.5,                    fillColor: '#FF0000',                    fillOpacity: 0.02,                    map: map,                    center: {lat: 24.7895763, lng: 120.9954602},                    radius: 166.624});
+var tan1 = new google.maps.Marker({                    position: {lat: 24.78931180677667, lng: 120.99383553647647},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "42F453",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan2 = new google.maps.Marker({                    position: {lat: 24.789840775687217, lng: 120.99708487045086},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4542F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan3 = new google.maps.Marker({                    position: {lat: 24.79107478563264, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41F476",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan4 = new google.maps.Marker({                    position: {lat: 24.79107478563264, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4286F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan5 = new google.maps.Marker({                    position: {lat: 24.79107478563264, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41f491",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan6 = new google.maps.Marker({                    position: {lat: 24.79107478563264, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41E5F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var user = new google.maps.Marker({                    position: {lat: 24.7881882, lng: 120.9954217},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "F4F142",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+
+11
+--------------------------
+b'{"steps" : 216, "gps" : {"lat" : 24.7880743, "lon" : 120.9953921, "acc" : 4.0}, "cell" : [{"pci" : 248, "val" : -83}, {"pci" : 247, "val" : -100}, {"pci" : 246, "val" : -99}]}\n'
+12
+last cell: {'pci': 248, 'val': -99}
+read cell: {'pci': 248, 'val': -83}
+towards: 248
+comparing areas (0, 0) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, 259.83397169829925)
+
+recently left from 243
+away from: 243
+comparing areas (79.83397169829928, 259.83397169829925) and (-157.32793163209777, 22.672068367902227)
+(79.83397169829928, -100.16602830170075)
+
+recently entered into 247
+towards: 247
+comparing areas (79.83397169829928, -100.16602830170075) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, -100.16602830170075)
+
+last cell: {'pci': 246, 'val': -106}
+read cell: {'pci': 246, 'val': -99}
+towards: 246
+comparing areas (79.83397169829928, -100.16602830170075) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, -100.16602830170075)
+
+recently left from 243
+away from: 243
+comparing areas (79.83397169829928, -100.16602830170075) and (-157.32793163209777, 22.672068367902227)
+(79.83397169829928, -100.16602830170075)
+
+final computed area:(79.83397169829928, -100.16602830170075)
+using backup area count: 9.(360, 360) and 10.(360, 360)--- len: 12
+
+var center = new google.maps.Marker({                    position: {lat: 24.7895763, lng: 120.9954602},                    map: map});
+var circle = new google.maps.Circle({                    strokeColor: '#FF0000',                    strokeOpacity: 0.8,                    strokeWeight: 0.5,                    fillColor: '#FF0000',                    fillOpacity: 0.02,                    map: map,                    center: {lat: 24.7895763, lng: 120.9954602},                    radius: 181.2544});
+var tan1 = new google.maps.Marker({                    position: {lat: 24.789288582143982, lng: 120.99369288342473},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "42F453",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan2 = new google.maps.Marker({                    position: {lat: 24.789863997105194, lng: 120.99722752477248},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4542F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan3 = new google.maps.Marker({                    position: {lat: 24.791206359980876, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41F476",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan4 = new google.maps.Marker({                    position: {lat: 24.791206359980876, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4286F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan5 = new google.maps.Marker({                    position: {lat: 24.791206359980876, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41f491",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan6 = new google.maps.Marker({                    position: {lat: 24.791206359980876, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41E5F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var user = new google.maps.Marker({                    position: {lat: 24.7880743, lng: 120.9953921},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "F4F142",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+
+12
+--------------------------
+b'{"steps" : 242, "gps" : {"lat" : 24.7878853, "lon" : 120.9954482, "acc" : 4.0}, "cell" : [{"pci" : 248, "val" : -84}, {"pci" : 246, "val" : -99}, {"pci" : 247, "val" : -101}]}\n'
+13
+last cell: {'pci': 248, 'val': -99}
+read cell: {'pci': 248, 'val': -84}
+towards: 248
+comparing areas (0, 0) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, 259.83397169829925)
+
+recently left from 243
+away from: 243
+comparing areas (79.83397169829928, 259.83397169829925) and (-157.32793163209777, 22.672068367902227)
+(79.83397169829928, -100.16602830170075)
+
+last cell: {'pci': 246, 'val': -106}
+read cell: {'pci': 246, 'val': -99}
+towards: 246
+comparing areas (79.83397169829928, -100.16602830170075) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, -100.16602830170075)
+
+recently left from 243
+away from: 243
+comparing areas (79.83397169829928, -100.16602830170075) and (-157.32793163209777, 22.672068367902227)
+(79.83397169829928, -100.16602830170075)
+
+recently entered into 247
+towards: 247
+comparing areas (79.83397169829928, -100.16602830170075) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, -100.16602830170075)
+
+final computed area:(79.83397169829928, -100.16602830170075)
+using backup area count: 10.(360, 360) and 11.(79.83397169829928, -100.16602830170075)--- len: 13
+
+var center = new google.maps.Marker({                    position: {lat: 24.7895763, lng: 120.9954602},                    map: map});
+var circle = new google.maps.Circle({                    strokeColor: '#FF0000',                    strokeOpacity: 0.8,                    strokeWeight: 0.5,                    fillColor: '#FF0000',                    fillOpacity: 0.02,                    map: map,                    center: {lat: 24.7895763, lng: 120.9954602},                    radius: 202.3872});
+var tan1 = new google.maps.Marker({                    position: {lat: 24.789255035213646, lng: 120.99348682911102},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "42F453",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan2 = new google.maps.Marker({                    position: {lat: 24.789897538914698, lng: 120.99743358110914},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4542F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan3 = new google.maps.Marker({                    position: {lat: 24.791396411817217, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41F476",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan4 = new google.maps.Marker({                    position: {lat: 24.791396411817217, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4286F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan5 = new google.maps.Marker({                    position: {lat: 24.789255035213646, lng: 120.99348682911102},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41f491",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan6 = new google.maps.Marker({                    position: {lat: 24.789897538914698, lng: 120.99743358110914},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41E5F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var user = new google.maps.Marker({                    position: {lat: 24.7878853, lng: 120.9954482},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "F4F142",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+
+13
+--------------------------
+b'{"steps" : 260, "gps" : {"lat" : 24.7877592, "lon" : 120.9954767, "acc" : 5.0}, "cell" : [{"pci" : 248, "val" : -83}, {"pci" : 246, "val" : -94}, {"pci" : 243, "val" : -100}, {"pci" : 445, "val" : -108}]}\n'
+14
+last cell: {'pci': 248, 'val': -99}
+read cell: {'pci': 248, 'val': -83}
+towards: 248
+comparing areas (0, 0) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, 259.83397169829925)
+
+last cell: {'pci': 246, 'val': -106}
+read cell: {'pci': 246, 'val': -94}
+towards: 246
+comparing areas (79.83397169829928, 259.83397169829925) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, -100.16602830170075)
+
+last cell: {'pci': 243, 'val': -116}
+read cell: {'pci': 243, 'val': -100}
+conflict in orientations between current read and 12
+conflict in orientations between current read and 13
+static at: 243
+comparing areas (79.83397169829928, -100.16602830170075) and (360, 360)
+(360, 360)
+
+final computed area:(360, 360)
+using backup area count: 11.(79.83397169829928, -100.16602830170075) and 12.(79.83397169829928, -100.16602830170075)--- len: 14
+
+var center = new google.maps.Marker({                    position: {lat: 24.7895763, lng: 120.9954602},                    map: map});
+var circle = new google.maps.Circle({                    strokeColor: '#FF0000',                    strokeOpacity: 0.8,                    strokeWeight: 0.5,                    fillColor: '#FF0000',                    fillOpacity: 0.02,                    map: map,                    center: {lat: 24.7895763, lng: 120.9954602},                    radius: 217.01760000000002});
+var tan1 = new google.maps.Marker({                    position: {lat: 24.79152798616544, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "42F453",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan2 = new google.maps.Marker({                    position: {lat: 24.79152798616544, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4542F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan3 = new google.maps.Marker({                    position: {lat: 24.789231810250474, lng: 120.99334417618991},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41F476",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan4 = new google.maps.Marker({                    position: {lat: 24.789920760002182, lng: 120.99757623556127},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4286F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan5 = new google.maps.Marker({                    position: {lat: 24.789231810250474, lng: 120.99334417618991},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41f491",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan6 = new google.maps.Marker({                    position: {lat: 24.789920760002182, lng: 120.99757623556127},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41E5F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var user = new google.maps.Marker({                    position: {lat: 24.7877592, lng: 120.9954767},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "F4F142",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+
+14
+--------------------------
+b'{"steps" : 278, "gps" : {"lat" : 24.7876295, "lon" : 120.9954539, "acc" : 5.0}, "cell" : [{"pci" : 248, "val" : -83}, {"pci" : 246, "val" : -100}, {"pci" : 243, "val" : -100}]}\n'
+15
+last cell: {'pci': 248, 'val': -99}
+read cell: {'pci': 248, 'val': -83}
+towards: 248
+comparing areas (0, 0) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, 259.83397169829925)
+
+last cell: {'pci': 246, 'val': -106}
+read cell: {'pci': 246, 'val': -100}
+towards: 246
+comparing areas (79.83397169829928, 259.83397169829925) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, -100.16602830170075)
+
+last cell: {'pci': 243, 'val': -116}
+read cell: {'pci': 243, 'val': -100}
+conflict in orientations between current read and 13
+static at: 243
+comparing areas (79.83397169829928, -100.16602830170075) and (360, 360)
+(360, 360)
+
+final computed area:(360, 360)
+using backup area count: 12.(79.83397169829928, -100.16602830170075) and 13.(79.83397169829928, -100.16602830170075)--- len: 15
+
+var center = new google.maps.Marker({                    position: {lat: 24.7895763, lng: 120.9954602},                    map: map});
+var circle = new google.maps.Circle({                    strokeColor: '#FF0000',                    strokeOpacity: 0.8,                    strokeWeight: 0.5,                    fillColor: '#FF0000',                    fillOpacity: 0.02,                    map: map,                    center: {lat: 24.7895763, lng: 120.9954602},                    radius: 231.64800000000002});
+var tan1 = new google.maps.Marker({                    position: {lat: 24.791659560513676, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "42F453",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan2 = new google.maps.Marker({                    position: {lat: 24.791659560513676, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4542F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan3 = new google.maps.Marker({                    position: {lat: 24.789208585152117, lng: 120.99320152332211},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41F476",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan4 = new google.maps.Marker({                    position: {lat: 24.789943980954465, lng: 120.99771889006684},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4286F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan5 = new google.maps.Marker({                    position: {lat: 24.789208585152117, lng: 120.99320152332211},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41f491",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan6 = new google.maps.Marker({                    position: {lat: 24.789943980954465, lng: 120.99771889006684},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41E5F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var user = new google.maps.Marker({                    position: {lat: 24.7876295, lng: 120.9954539},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "F4F142",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+
+15
+--------------------------
+b'{"steps" : 306, "gps" : {"lat" : 24.7875288, "lon" : 120.9954112, "acc" : 4.0}, "cell" : [{"pci" : 247, "val" : -95}, {"pci" : 248, "val" : -101}]}\n'
+16
+recently entered into 247
+towards: 247
+comparing areas (0, 0) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, 259.83397169829925)
+
+last cell: {'pci': 248, 'val': -99}
+read cell: {'pci': 248, 'val': -101}
+static at: 248
+comparing areas (79.83397169829928, 259.83397169829925) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, -100.16602830170075)
+
+recently left from 246
+conflict in orientations between current read and 16
+conflict in orientations between current read and 14
+conflict in orientations between current read and 15
+static at: 246
+comparing areas (79.83397169829928, -100.16602830170075) and (360, 360)
+(360, 360)
+
+recently left from 243
+away from: 243
+comparing areas (360, 360) and (-157.32793163209777, 22.672068367902227)
+(360, 360)
+
+final computed area:(360, 360)
+using backup area count: 13.(79.83397169829928, -100.16602830170075) and 14.(360, 360)--- len: 16
+
+var center = new google.maps.Marker({                    position: {lat: 24.7895763, lng: 120.9954602},                    map: map});
+var circle = new google.maps.Circle({                    strokeColor: '#FF0000',                    strokeOpacity: 0.8,                    strokeWeight: 0.5,                    fillColor: '#FF0000',                    fillOpacity: 0.02,                    map: map,                    center: {lat: 24.7895763, lng: 120.9954602},                    radius: 254.40640000000002});
+var tan1 = new google.maps.Marker({                    position: {lat: 24.791864231722037, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "42F453",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan2 = new google.maps.Marker({                    position: {lat: 24.791864231722037, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4542F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan3 = new google.maps.Marker({                    position: {lat: 24.789172456952617, lng: 120.99297961896741},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41F476",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan4 = new google.maps.Marker({                    position: {lat: 24.789980102167064, lng: 120.99794079718163},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4286F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan5 = new google.maps.Marker({                    position: {lat: 24.791864231722037, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41f491",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan6 = new google.maps.Marker({                    position: {lat: 24.791864231722037, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41E5F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var user = new google.maps.Marker({                    position: {lat: 24.7875288, lng: 120.9954112},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "F4F142",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+
+16
+--------------------------
+b'{"steps" : 332, "gps" : {"lat" : 24.7873881, "lon" : 120.9954453, "acc" : 5.0}, "cell" : [{"pci" : 247, "val" : -90}, {"pci" : 244, "val" : -100}, {"pci" : 248, "val" : -105}]}\n'
+17
+recently entered into 247
+towards: 247
+comparing areas (0, 0) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, 259.83397169829925)
+
+recently entered into 244
+towards: 244
+comparing areas (79.83397169829928, 259.83397169829925) and (71.12223981515365, 251.12223981515365)
+(79.83397169829928, -108.87776018484635)
+
+last cell: {'pci': 248, 'val': -99}
+read cell: {'pci': 248, 'val': -105}
+conflict in orientations between current read and 17
+conflict in orientations between current read and 15
+static at: 248
+comparing areas (79.83397169829928, -108.87776018484635) and (360, 360)
+(360, 360)
+
+recently left from 246
+conflict in orientations between current read and 17
+conflict in orientations between current read and 15
+static at: 246
+comparing areas (360, 360) and (360, 360)
+(360, 360)
+
+recently left from 243
+away from: 243
+comparing areas (360, 360) and (-157.32793163209777, 22.672068367902227)
+(360, 360)
+
+final computed area:(360, 360)
+using backup area count: 14.(360, 360) and 15.(360, 360)--- len: 17
+
+var center = new google.maps.Marker({                    position: {lat: 24.7895763, lng: 120.9954602},                    map: map});
+var circle = new google.maps.Circle({                    strokeColor: '#FF0000',                    strokeOpacity: 0.8,                    strokeWeight: 0.5,                    fillColor: '#FF0000',                    fillOpacity: 0.02,                    map: map,                    center: {lat: 24.7895763, lng: 120.9954602},                    radius: 275.5392});
+var tan1 = new google.maps.Marker({                    position: {lat: 24.792054283558375, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "42F453",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan2 = new google.maps.Marker({                    position: {lat: 24.792054283558375, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4542F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan3 = new google.maps.Marker({                    position: {lat: 24.792054283558375, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41F476",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan4 = new google.maps.Marker({                    position: {lat: 24.792054283558375, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4286F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan5 = new google.maps.Marker({                    position: {lat: 24.792054283558375, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41f491",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan6 = new google.maps.Marker({                    position: {lat: 24.792054283558375, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41E5F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var user = new google.maps.Marker({                    position: {lat: 24.7873881, lng: 120.9954453},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "F4F142",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+
+17
+--------------------------
+b'{"steps" : 350, "gps" : {"lat" : 24.7872489, "lon" : 120.9954239, "acc" : 5.0}, "cell" : [{"pci" : 247, "val" : -91}, {"pci" : 248, "val" : -106}, {"pci" : 302, "val" : -110}]}\n'
+18
+recently entered into 247
+towards: 247
+comparing areas (0, 0) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, 259.83397169829925)
+
+last cell: {'pci': 248, 'val': -99}
+read cell: {'pci': 248, 'val': -106}
+conflict in orientations between current read and 18
+static at: 248
+comparing areas (79.83397169829928, 259.83397169829925) and (360, 360)
+(360, 360)
+
+recently left from 246
+conflict in orientations between current read and 18
+static at: 246
+comparing areas (360, 360) and (360, 360)
+(360, 360)
+
+recently left from 243
+away from: 243
+comparing areas (360, 360) and (-157.32793163209777, 22.672068367902227)
+(360, 360)
+
+final computed area:(360, 360)
+using backup area count: 15.(360, 360) and 16.(360, 360)--- len: 18
+
+var center = new google.maps.Marker({                    position: {lat: 24.7895763, lng: 120.9954602},                    map: map});
+var circle = new google.maps.Circle({                    strokeColor: '#FF0000',                    strokeOpacity: 0.8,                    strokeWeight: 0.5,                    fillColor: '#FF0000',                    fillOpacity: 0.02,                    map: map,                    center: {lat: 24.7895763, lng: 120.9954602},                    radius: 290.1696});
+var tan1 = new google.maps.Marker({                    position: {lat: 24.79218585790661, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "42F453",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan2 = new google.maps.Marker({                    position: {lat: 24.79218585790661, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4542F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan3 = new google.maps.Marker({                    position: {lat: 24.79218585790661, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41F476",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan4 = new google.maps.Marker({                    position: {lat: 24.79218585790661, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4286F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan5 = new google.maps.Marker({                    position: {lat: 24.79218585790661, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41f491",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan6 = new google.maps.Marker({                    position: {lat: 24.79218585790661, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41E5F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var user = new google.maps.Marker({                    position: {lat: 24.7872489, lng: 120.9954239},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "F4F142",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+
+18
+--------------------------
+b'{"steps" : 386, "gps" : {"lat" : 24.7869709, "lon" : 120.9953893, "acc" : 5.0}, "cell" : [{"pci" : 247, "val" : -87}, {"pci" : 244, "val" : -98}]}\n'
+19
+recently entered into 247
+towards: 247
+comparing areas (0, 0) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, 259.83397169829925)
+
+recently entered into 244
+towards: 244
+comparing areas (79.83397169829928, 259.83397169829925) and (71.12223981515365, 251.12223981515365)
+(79.83397169829928, -108.87776018484635)
+
+final computed area:(79.83397169829928, -108.87776018484635)
+using backup area count: 16.(360, 360) and 17.(360, 360)--- len: 19
+
+var center = new google.maps.Marker({                    position: {lat: 24.7895763, lng: 120.9954602},                    map: map});
+var circle = new google.maps.Circle({                    strokeColor: '#FF0000',                    strokeOpacity: 0.8,                    strokeWeight: 0.5,                    fillColor: '#FF0000',                    fillOpacity: 0.02,                    map: map,                    center: {lat: 24.7895763, lng: 120.9954602},                    radius: 319.4304});
+var tan1 = new google.maps.Marker({                    position: {lat: 24.788646805531904, lng: 120.99246614263586},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "42F453",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan2 = new google.maps.Marker({                    position: {lat: 24.790083303828943, lng: 120.99857481822175},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4542F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan3 = new google.maps.Marker({                    position: {lat: 24.792449006603068, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41F476",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan4 = new google.maps.Marker({                    position: {lat: 24.792449006603068, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4286F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan5 = new google.maps.Marker({                    position: {lat: 24.792449006603068, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41f491",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan6 = new google.maps.Marker({                    position: {lat: 24.792449006603068, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41E5F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var user = new google.maps.Marker({                    position: {lat: 24.7869709, lng: 120.9953893},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "F4F142",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+
+19
+--------------------------
+b'{"steps" : 404, "gps" : {"lat" : 24.786834, "lon" : 120.9953881, "acc" : 4.0}, "cell" : [{"pci" : 247, "val" : -94}, {"pci" : 244, "val" : -102}, {"pci" : 248, "val" : -102}]}\n'
+20
+recently entered into 247
+towards: 247
+comparing areas (0, 0) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, 259.83397169829925)
+
+recently entered into 244
+towards: 244
+comparing areas (79.83397169829928, 259.83397169829925) and (71.12223981515365, 251.12223981515365)
+(79.83397169829928, -108.87776018484635)
+
+last cell: {'pci': 248, 'val': -99}
+read cell: {'pci': 248, 'val': -102}
+conflict in orientations between current read and 20
+static at: 248
+comparing areas (79.83397169829928, -108.87776018484635) and (360, 360)
+(360, 360)
+
+recently left from 246
+conflict in orientations between current read and 20
+static at: 246
+comparing areas (360, 360) and (360, 360)
+(360, 360)
+
+recently left from 243
+away from: 243
+comparing areas (360, 360) and (-157.32793163209777, 22.672068367902227)
+(360, 360)
+
+final computed area:(360, 360)
+using backup area count: 17.(360, 360) and 18.(360, 360)--- len: 20
+
+var center = new google.maps.Marker({                    position: {lat: 24.7895763, lng: 120.9954602},                    map: map});
+var circle = new google.maps.Circle({                    strokeColor: '#FF0000',                    strokeOpacity: 0.8,                    strokeWeight: 0.5,                    fillColor: '#FF0000',                    fillOpacity: 0.02,                    map: map,                    center: {lat: 24.7895763, lng: 120.9954602},                    radius: 334.0608});
+var tan1 = new google.maps.Marker({                    position: {lat: 24.792580580951302, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "42F453",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan2 = new google.maps.Marker({                    position: {lat: 24.792580580951302, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4542F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan3 = new google.maps.Marker({                    position: {lat: 24.792580580951302, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41F476",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan4 = new google.maps.Marker({                    position: {lat: 24.792580580951302, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4286F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan5 = new google.maps.Marker({                    position: {lat: 24.792580580951302, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41f491",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan6 = new google.maps.Marker({                    position: {lat: 24.792580580951302, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41E5F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var user = new google.maps.Marker({                    position: {lat: 24.786834, lng: 120.9953881},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "F4F142",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+
+20
+--------------------------
+b'{"steps" : 423, "gps" : {"lat" : 24.7867349, "lon" : 120.9953803, "acc" : 5.0}, "cell" : [{"pci" : 247, "val" : -95}, {"pci" : 244, "val" : -106}, {"pci" : 248, "val" : -103}, {"pci" : 302, "val" : -112}]}\n'
+21
+recently entered into 247
+towards: 247
+comparing areas (0, 0) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, 259.83397169829925)
+
+recently entered into 244
+towards: 244
+comparing areas (79.83397169829928, 259.83397169829925) and (71.12223981515365, 251.12223981515365)
+(79.83397169829928, -108.87776018484635)
+
+last cell: {'pci': 248, 'val': -99}
+read cell: {'pci': 248, 'val': -103}
+conflict in orientations between current read and 21
+static at: 248
+comparing areas (79.83397169829928, -108.87776018484635) and (360, 360)
+(360, 360)
+
+recently left from 246
+conflict in orientations between current read and 21
+static at: 246
+comparing areas (360, 360) and (360, 360)
+(360, 360)
+
+recently left from 243
+away from: 243
+comparing areas (360, 360) and (-157.32793163209777, 22.672068367902227)
+(360, 360)
+
+final computed area:(360, 360)
+using backup area count: 18.(360, 360) and 19.(79.83397169829928, -108.87776018484635)--- len: 21
+
+var center = new google.maps.Marker({                    position: {lat: 24.7895763, lng: 120.9954602},                    map: map});
+var circle = new google.maps.Circle({                    strokeColor: '#FF0000',                    strokeOpacity: 0.8,                    strokeWeight: 0.5,                    fillColor: '#FF0000',                    fillOpacity: 0.02,                    map: map,                    center: {lat: 24.7895763, lng: 120.9954602},                    radius: 349.504});
+var tan1 = new google.maps.Marker({                    position: {lat: 24.79271946498555, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "42F453",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan2 = new google.maps.Marker({                    position: {lat: 24.79271946498555, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4542F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan3 = new google.maps.Marker({                    position: {lat: 24.79271946498555, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41F476",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan4 = new google.maps.Marker({                    position: {lat: 24.79271946498555, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4286F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan5 = new google.maps.Marker({                    position: {lat: 24.788559292807218, lng: 120.99218426168329},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41f491",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan6 = new google.maps.Marker({                    position: {lat: 24.790131033694337, lng: 120.9988680533096},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41E5F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var user = new google.maps.Marker({                    position: {lat: 24.7867349, lng: 120.9953803},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "F4F142",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+
+21
+--------------------------
+b'{"steps" : 441, "gps" : {"lat" : 24.786612, "lon" : 120.9953271, "acc" : 5.0}, "cell" : [{"pci" : 247, "val" : -93}, {"pci" : 244, "val" : -100}, {"pci" : 248, "val" : -105}]}\n'
+22
+recently entered into 247
+towards: 247
+comparing areas (0, 0) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, 259.83397169829925)
+
+recently entered into 244
+towards: 244
+comparing areas (79.83397169829928, 259.83397169829925) and (71.12223981515365, 251.12223981515365)
+(79.83397169829928, -108.87776018484635)
+
+last cell: {'pci': 248, 'val': -99}
+read cell: {'pci': 248, 'val': -105}
+conflict in orientations between current read and 22
+static at: 248
+comparing areas (79.83397169829928, -108.87776018484635) and (360, 360)
+(360, 360)
+
+recently left from 246
+conflict in orientations between current read and 22
+static at: 246
+comparing areas (360, 360) and (360, 360)
+(360, 360)
+
+recently left from 243
+away from: 243
+comparing areas (360, 360) and (-157.32793163209777, 22.672068367902227)
+(360, 360)
+
+final computed area:(360, 360)
+using backup area count: 19.(79.83397169829928, -108.87776018484635) and 20.(360, 360)--- len: 22
+
+var center = new google.maps.Marker({                    position: {lat: 24.7895763, lng: 120.9954602},                    map: map});
+var circle = new google.maps.Circle({                    strokeColor: '#FF0000',                    strokeOpacity: 0.8,                    strokeWeight: 0.5,                    fillColor: '#FF0000',                    fillOpacity: 0.02,                    map: map,                    center: {lat: 24.7895763, lng: 120.9954602},                    radius: 364.1344});
+var tan1 = new google.maps.Marker({                    position: {lat: 24.79285103933378, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "42F453",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan2 = new google.maps.Marker({                    position: {lat: 24.79285103933378, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4542F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan3 = new google.maps.Marker({                    position: {lat: 24.788516718858393, lng: 120.99204713055292},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41F476",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan4 = new google.maps.Marker({                    position: {lat: 24.790154253422294, lng: 120.99901070829878},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4286F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan5 = new google.maps.Marker({                    position: {lat: 24.79285103933378, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41f491",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan6 = new google.maps.Marker({                    position: {lat: 24.79285103933378, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41E5F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var user = new google.maps.Marker({                    position: {lat: 24.786612, lng: 120.9953271},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "F4F142",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+
+22
+--------------------------
+b'{"steps" : 460, "gps" : {"lat" : 24.7864511, "lon" : 120.9953141, "acc" : 5.0}, "cell" : [{"pci" : 247, "val" : -93}, {"pci" : 244, "val" : -99}, {"pci" : 248, "val" : -106}]}\n'
+23
+recently entered into 247
+towards: 247
+comparing areas (0, 0) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, 259.83397169829925)
+
+recently entered into 244
+towards: 244
+comparing areas (79.83397169829928, 259.83397169829925) and (71.12223981515365, 251.12223981515365)
+(79.83397169829928, -108.87776018484635)
+
+last cell: {'pci': 248, 'val': -99}
+read cell: {'pci': 248, 'val': -106}
+conflict in orientations between current read and 23
+static at: 248
+comparing areas (79.83397169829928, -108.87776018484635) and (360, 360)
+(360, 360)
+
+recently left from 246
+conflict in orientations between current read and 23
+static at: 246
+comparing areas (360, 360) and (360, 360)
+(360, 360)
+
+recently left from 243
+away from: 243
+comparing areas (360, 360) and (-157.32793163209777, 22.672068367902227)
+(360, 360)
+
+final computed area:(360, 360)
+using backup area count: 20.(360, 360) and 21.(360, 360)--- len: 23
+
+var center = new google.maps.Marker({                    position: {lat: 24.7895763, lng: 120.9954602},                    map: map});
+var circle = new google.maps.Circle({                    strokeColor: '#FF0000',                    strokeOpacity: 0.8,                    strokeWeight: 0.5,                    fillColor: '#FF0000',                    fillOpacity: 0.02,                    map: map,                    center: {lat: 24.7895763, lng: 120.9954602},                    radius: 379.5776});
+var tan1 = new google.maps.Marker({                    position: {lat: 24.792989923368026, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "42F453",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan2 = new google.maps.Marker({                    position: {lat: 24.792989923368026, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4542F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan3 = new google.maps.Marker({                    position: {lat: 24.792989923368026, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41F476",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan4 = new google.maps.Marker({                    position: {lat: 24.792989923368026, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4286F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan5 = new google.maps.Marker({                    position: {lat: 24.792989923368026, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41f491",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan6 = new google.maps.Marker({                    position: {lat: 24.792989923368026, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41E5F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var user = new google.maps.Marker({                    position: {lat: 24.7864511, lng: 120.9953141},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "F4F142",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+
+23
+--------------------------
+b'{"steps" : 487, "gps" : {"lat" : 24.7862539, "lon" : 120.9953419, "acc" : 5.0}, "cell" : [{"pci" : 247, "val" : -92}, {"pci" : 244, "val" : -98}]}\n'
+24
+recently entered into 247
+towards: 247
+comparing areas (0, 0) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, 259.83397169829925)
+
+recently entered into 244
+towards: 244
+comparing areas (79.83397169829928, 259.83397169829925) and (71.12223981515365, 251.12223981515365)
+(79.83397169829928, -108.87776018484635)
+
+final computed area:(79.83397169829928, -108.87776018484635)
+using backup area count: 21.(360, 360) and 22.(360, 360)--- len: 24
+
+var center = new google.maps.Marker({                    position: {lat: 24.7895763, lng: 120.9954602},                    map: map});
+var circle = new google.maps.Circle({                    strokeColor: '#FF0000',                    strokeOpacity: 0.8,                    strokeWeight: 0.5,                    fillColor: '#FF0000',                    fillOpacity: 0.02,                    map: map,                    center: {lat: 24.7895763, lng: 120.9954602},                    radius: 401.52320000000003});
+var tan1 = new google.maps.Marker({                    position: {lat: 24.788407918199386, lng: 120.99169668475838},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "42F453",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan2 = new google.maps.Marker({                    position: {lat: 24.79021359211282, lng: 120.99937527129146},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4542F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan3 = new google.maps.Marker({                    position: {lat: 24.79318728489038, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41F476",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan4 = new google.maps.Marker({                    position: {lat: 24.79318728489038, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4286F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan5 = new google.maps.Marker({                    position: {lat: 24.79318728489038, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41f491",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan6 = new google.maps.Marker({                    position: {lat: 24.79318728489038, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41E5F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var user = new google.maps.Marker({                    position: {lat: 24.7862539, lng: 120.9953419},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "F4F142",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+
+24
+--------------------------
+b'{"steps" : 509, "gps" : {"lat" : 24.7862232, "lon" : 120.99534, "acc" : 5.0}, "cell" : [{"pci" : 247, "val" : -96}, {"pci" : 244, "val" : -101}, {"pci" : 248, "val" : -110}]}\n'
+25
+recently entered into 247
+towards: 247
+comparing areas (0, 0) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, 259.83397169829925)
+
+recently entered into 244
+towards: 244
+comparing areas (79.83397169829928, 259.83397169829925) and (71.12223981515365, 251.12223981515365)
+(79.83397169829928, -108.87776018484635)
+
+last cell: {'pci': 248, 'val': -99}
+read cell: {'pci': 248, 'val': -110}
+conflict in orientations between current read and 25
+static at: 248
+comparing areas (79.83397169829928, -108.87776018484635) and (360, 360)
+(360, 360)
+
+recently left from 246
+conflict in orientations between current read and 25
+static at: 246
+comparing areas (360, 360) and (360, 360)
+(360, 360)
+
+recently left from 243
+away from: 243
+comparing areas (360, 360) and (-157.32793163209777, 22.672068367902227)
+(360, 360)
+
+final computed area:(360, 360)
+using backup area count: 22.(360, 360) and 23.(360, 360)--- len: 25
+
+var center = new google.maps.Marker({                    position: {lat: 24.7895763, lng: 120.9954602},                    map: map});
+var circle = new google.maps.Circle({                    strokeColor: '#FF0000',                    strokeOpacity: 0.8,                    strokeWeight: 0.5,                    fillColor: '#FF0000',                    fillOpacity: 0.02,                    map: map,                    center: {lat: 24.7895763, lng: 120.9954602},                    radius: 419.4048});
+var tan1 = new google.maps.Marker({                    position: {lat: 24.793348097982662, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "42F453",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan2 = new google.maps.Marker({                    position: {lat: 24.793348097982662, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4542F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan3 = new google.maps.Marker({                    position: {lat: 24.793348097982662, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41F476",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan4 = new google.maps.Marker({                    position: {lat: 24.793348097982662, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4286F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan5 = new google.maps.Marker({                    position: {lat: 24.793348097982662, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41f491",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan6 = new google.maps.Marker({                    position: {lat: 24.793348097982662, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41E5F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var user = new google.maps.Marker({                    position: {lat: 24.7862232, lng: 120.99534},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "F4F142",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+
+25
+--------------------------
+b'{"steps" : 523, "gps" : {"lat" : 24.7861248, "lon" : 120.9953248, "acc" : 4.0}, "cell" : [{"pci" : 247, "val" : -93}, {"pci" : 244, "val" : -98}]}\n'
+26
+recently entered into 247
+towards: 247
+comparing areas (0, 0) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, 259.83397169829925)
+
+recently entered into 244
+towards: 244
+comparing areas (79.83397169829928, 259.83397169829925) and (71.12223981515365, 251.12223981515365)
+(79.83397169829928, -108.87776018484635)
+
+final computed area:(79.83397169829928, -108.87776018484635)
+using backup area count: 23.(360, 360) and 24.(79.83397169829928, -108.87776018484635)--- len: 26
+
+var center = new google.maps.Marker({                    position: {lat: 24.7895763, lng: 120.9954602},                    map: map});
+var circle = new google.maps.Circle({                    strokeColor: '#FF0000',                    strokeOpacity: 0.8,                    strokeWeight: 0.5,                    fillColor: '#FF0000',                    fillOpacity: 0.02,                    map: map,                    center: {lat: 24.7895763, lng: 120.9954602},                    radius: 430.784});
+var tan1 = new google.maps.Marker({                    position: {lat: 24.78832276928843, lng: 120.99142242326093},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "42F453",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan2 = new google.maps.Marker({                    position: {lat: 24.79026003047208, lng: 120.99966058170298},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4542F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan3 = new google.maps.Marker({                    position: {lat: 24.79345043358684, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41F476",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan4 = new google.maps.Marker({                    position: {lat: 24.79345043358684, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4286F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan5 = new google.maps.Marker({                    position: {lat: 24.78832276928843, lng: 120.99142242326093},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41f491",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan6 = new google.maps.Marker({                    position: {lat: 24.79026003047208, lng: 120.99966058170298},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41E5F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var user = new google.maps.Marker({                    position: {lat: 24.7861248, lng: 120.9953248},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "F4F142",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+
+26
+--------------------------
+b'{"steps" : 542, "gps" : {"lat" : 24.785989, "lon" : 120.9953429, "acc" : 5.0}, "cell" : [{"pci" : 244, "val" : -94}, {"pci" : 247, "val" : -96}, {"pci" : 245, "val" : -108}]}\n'
+27
+recently entered into 244
+towards: 244
+comparing areas (0, 0) and (71.12223981515365, 251.12223981515365)
+(71.12223981515365, 251.12223981515365)
+
+recently entered into 247
+towards: 247
+comparing areas (71.12223981515365, 251.12223981515365) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, -108.87776018484635)
+
+recently entered into 245
+towards: 245
+comparing areas (79.83397169829928, -108.87776018484635) and (71.12223981515365, 251.12223981515365)
+(79.83397169829928, -108.87776018484635)
+
+final computed area:(79.83397169829928, -108.87776018484635)
+using backup area count: 24.(79.83397169829928, -108.87776018484635) and 25.(360, 360)--- len: 27
+
+var center = new google.maps.Marker({                    position: {lat: 24.7895763, lng: 120.9954602},                    map: map});
+var circle = new google.maps.Circle({                    strokeColor: '#FF0000',                    strokeOpacity: 0.8,                    strokeWeight: 0.5,                    fillColor: '#FF0000',                    fillOpacity: 0.02,                    map: map,                    center: {lat: 24.7895763, lng: 120.9954602},                    radius: 446.2272});
+var tan1 = new google.maps.Marker({                    position: {lat: 24.78827782938397, lng: 120.991277674289},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "42F453",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan2 = new google.maps.Marker({                    position: {lat: 24.7902845393881, lng: 120.999811162284},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4542F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan3 = new google.maps.Marker({                    position: {lat: 24.78827782938397, lng: 120.991277674289},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41F476",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan4 = new google.maps.Marker({                    position: {lat: 24.7902845393881, lng: 120.999811162284},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4286F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan5 = new google.maps.Marker({                    position: {lat: 24.793589317621088, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41f491",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan6 = new google.maps.Marker({                    position: {lat: 24.793589317621088, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41E5F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var user = new google.maps.Marker({                    position: {lat: 24.785989, lng: 120.9953429},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "F4F142",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+
+27
+--------------------------
+b'{"steps" : 560, "gps" : {"lat" : 24.7858518, "lon" : 120.9953377, "acc" : 3.9}, "cell" : [{"pci" : 244, "val" : -81}, {"pci" : 247, "val" : -93}, {"pci" : 245, "val" : -99}]}\n'
+28
+recently entered into 244
+towards: 244
+comparing areas (0, 0) and (71.12223981515365, 251.12223981515365)
+(71.12223981515365, 251.12223981515365)
+
+recently entered into 247
+towards: 247
+comparing areas (71.12223981515365, 251.12223981515365) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, -108.87776018484635)
+
+recently entered into 245
+towards: 245
+comparing areas (79.83397169829928, -108.87776018484635) and (71.12223981515365, 251.12223981515365)
+(79.83397169829928, -108.87776018484635)
+
+final computed area:(79.83397169829928, -108.87776018484635)
+using backup area count: 25.(360, 360) and 26.(79.83397169829928, -108.87776018484635)--- len: 28
+
+var center = new google.maps.Marker({                    position: {lat: 24.7895763, lng: 120.9954602},                    map: map});
+var circle = new google.maps.Circle({                    strokeColor: '#FF0000',                    strokeOpacity: 0.8,                    strokeWeight: 0.5,                    fillColor: '#FF0000',                    fillOpacity: 0.02,                    map: map,                    center: {lat: 24.7895763, lng: 120.9954602},                    radius: 460.85760000000005});
+var tan1 = new google.maps.Marker({                    position: {lat: 24.78823525460923, lng: 120.99114054378083},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "42F453",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan2 = new google.maps.Marker({                    position: {lat: 24.790307758222205, lng: 120.99995381762619},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4542F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan3 = new google.maps.Marker({                    position: {lat: 24.793720891969315, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41F476",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan4 = new google.maps.Marker({                    position: {lat: 24.793720891969315, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4286F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan5 = new google.maps.Marker({                    position: {lat: 24.78823525460923, lng: 120.99114054378083},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41f491",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan6 = new google.maps.Marker({                    position: {lat: 24.790307758222205, lng: 120.99995381762619},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41E5F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var user = new google.maps.Marker({                    position: {lat: 24.7858518, lng: 120.9953377},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "F4F142",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+
+28
+--------------------------
+b'{"steps" : 578, "gps" : {"lat" : 24.7857121, "lon" : 120.9953497, "acc" : 3.9}, "cell" : [{"pci" : 244, "val" : -78}, {"pci" : 247, "val" : -89}]}\n'
+29
+recently entered into 244
+towards: 244
+comparing areas (0, 0) and (71.12223981515365, 251.12223981515365)
+(71.12223981515365, 251.12223981515365)
+
+recently entered into 247
+towards: 247
+comparing areas (71.12223981515365, 251.12223981515365) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, -108.87776018484635)
+
+final computed area:(79.83397169829928, -108.87776018484635)
+using backup area count: 26.(79.83397169829928, -108.87776018484635) and 27.(79.83397169829928, -108.87776018484635)--- len: 29
+
+var center = new google.maps.Marker({                    position: {lat: 24.7895763, lng: 120.9954602},                    map: map});
+var circle = new google.maps.Circle({                    strokeColor: '#FF0000',                    strokeOpacity: 0.8,                    strokeWeight: 0.5,                    fillColor: '#FF0000',                    fillOpacity: 0.02,                    map: map,                    center: {lat: 24.7895763, lng: 120.9954602},                    radius: 475.488});
+var tan1 = new google.maps.Marker({                    position: {lat: 24.788192679709567, lng: 120.9910034133668},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "42F453",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan2 = new google.maps.Marker({                    position: {lat: 24.790330976921116, lng: 121.00009647302181},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4542F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan3 = new google.maps.Marker({                    position: {lat: 24.788192679709567, lng: 120.9910034133668},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41F476",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan4 = new google.maps.Marker({                    position: {lat: 24.790330976921116, lng: 121.00009647302181},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4286F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan5 = new google.maps.Marker({                    position: {lat: 24.788192679709567, lng: 120.9910034133668},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41f491",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan6 = new google.maps.Marker({                    position: {lat: 24.790330976921116, lng: 121.00009647302181},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41E5F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var user = new google.maps.Marker({                    position: {lat: 24.7857121, lng: 120.9953497},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "F4F142",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+
+29
+--------------------------
+b'{"steps" : 596, "gps" : {"lat" : 24.7855987, "lon" : 120.9953816, "acc" : 3.9}, "cell" : [{"pci" : 244, "val" : -85}, {"pci" : 247, "val" : -93}]}\n'
+30
+recently entered into 244
+towards: 244
+comparing areas (0, 0) and (71.12223981515365, 251.12223981515365)
+(71.12223981515365, 251.12223981515365)
+
+recently entered into 247
+towards: 247
+comparing areas (71.12223981515365, 251.12223981515365) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, -108.87776018484635)
+
+final computed area:(79.83397169829928, -108.87776018484635)
+using backup area count: 27.(79.83397169829928, -108.87776018484635) and 28.(79.83397169829928, -108.87776018484635)--- len: 30
+
+var center = new google.maps.Marker({                    position: {lat: 24.7895763, lng: 120.9954602},                    map: map});
+var circle = new google.maps.Circle({                    strokeColor: '#FF0000',                    strokeOpacity: 0.8,                    strokeWeight: 0.5,                    fillColor: '#FF0000',                    fillOpacity: 0.02,                    map: map,                    center: {lat: 24.7895763, lng: 120.9954602},                    radius: 490.1184});
+var tan1 = new google.maps.Marker({                    position: {lat: 24.788150104684984, lng: 120.99086628304678},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "42F453",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan2 = new google.maps.Marker({                    position: {lat: 24.790354195484817, lng: 121.00023912847087},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4542F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan3 = new google.maps.Marker({                    position: {lat: 24.788150104684984, lng: 120.99086628304678},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41F476",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan4 = new google.maps.Marker({                    position: {lat: 24.790354195484817, lng: 121.00023912847087},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4286F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan5 = new google.maps.Marker({                    position: {lat: 24.788150104684984, lng: 120.99086628304678},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41f491",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan6 = new google.maps.Marker({                    position: {lat: 24.790354195484817, lng: 121.00023912847087},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41E5F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var user = new google.maps.Marker({                    position: {lat: 24.7855987, lng: 120.9953816},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "F4F142",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+
+30
+--------------------------
+b'{"steps" : 614, "gps" : {"lat" : 24.7854707, "lon" : 120.9954114, "acc" : 3.9}, "cell" : [{"pci" : 244, "val" : -91}, {"pci" : 247, "val" : -93}]}\n'
+31
+recently entered into 244
+towards: 244
+comparing areas (0, 0) and (71.12223981515365, 251.12223981515365)
+(71.12223981515365, 251.12223981515365)
+
+recently entered into 247
+towards: 247
+comparing areas (71.12223981515365, 251.12223981515365) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, -108.87776018484635)
+
+final computed area:(79.83397169829928, -108.87776018484635)
+using backup area count: 28.(79.83397169829928, -108.87776018484635) and 29.(79.83397169829928, -108.87776018484635)--- len: 31
+
+var center = new google.maps.Marker({                    position: {lat: 24.7895763, lng: 120.9954602},                    map: map});
+var circle = new google.maps.Circle({                    strokeColor: '#FF0000',                    strokeOpacity: 0.8,                    strokeWeight: 0.5,                    fillColor: '#FF0000',                    fillOpacity: 0.02,                    map: map,                    center: {lat: 24.7895763, lng: 120.9954602},                    radius: 504.7488});
+var tan1 = new google.maps.Marker({                    position: {lat: 24.78810752953547, lng: 120.9907291528209},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "42F453",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan2 = new google.maps.Marker({                    position: {lat: 24.790377413913312, lng: 121.00038178397324},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4542F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan3 = new google.maps.Marker({                    position: {lat: 24.78810752953547, lng: 120.9907291528209},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41F476",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan4 = new google.maps.Marker({                    position: {lat: 24.790377413913312, lng: 121.00038178397324},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4286F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan5 = new google.maps.Marker({                    position: {lat: 24.78810752953547, lng: 120.9907291528209},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41f491",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan6 = new google.maps.Marker({                    position: {lat: 24.790377413913312, lng: 121.00038178397324},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41E5F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var user = new google.maps.Marker({                    position: {lat: 24.7854707, lng: 120.9954114},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "F4F142",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+
+31
+--------------------------
+b'{"steps" : 633, "gps" : {"lat" : 24.7853592, "lon" : 120.9954128, "acc" : 3.9}, "cell" : [{"pci" : 244, "val" : -90}, {"pci" : 247, "val" : -95}]}\n'
+32
+recently entered into 244
+towards: 244
+comparing areas (0, 0) and (71.12223981515365, 251.12223981515365)
+(71.12223981515365, 251.12223981515365)
+
+recently entered into 247
+towards: 247
+comparing areas (71.12223981515365, 251.12223981515365) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, -108.87776018484635)
+
+final computed area:(79.83397169829928, -108.87776018484635)
+using backup area count: 29.(79.83397169829928, -108.87776018484635) and 30.(79.83397169829928, -108.87776018484635)--- len: 32
+
+var center = new google.maps.Marker({                    position: {lat: 24.7895763, lng: 120.9954602},                    map: map});
+var circle = new google.maps.Circle({                    strokeColor: '#FF0000',                    strokeOpacity: 0.8,                    strokeWeight: 0.5,                    fillColor: '#FF0000',                    fillOpacity: 0.02,                    map: map,                    center: {lat: 24.7895763, lng: 120.9954602},                    radius: 520.192});
+var tan1 = new google.maps.Marker({                    position: {lat: 24.788062588964344, lng: 120.99058440435124},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "42F453",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan2 = new google.maps.Marker({                    position: {lat: 24.790401922107826, lng: 121.00053236483927},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4542F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan3 = new google.maps.Marker({                    position: {lat: 24.788062588964344, lng: 120.99058440435124},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41F476",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan4 = new google.maps.Marker({                    position: {lat: 24.790401922107826, lng: 121.00053236483927},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4286F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan5 = new google.maps.Marker({                    position: {lat: 24.788062588964344, lng: 120.99058440435124},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41f491",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan6 = new google.maps.Marker({                    position: {lat: 24.790401922107826, lng: 121.00053236483927},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41E5F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var user = new google.maps.Marker({                    position: {lat: 24.7853592, lng: 120.9954128},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "F4F142",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+
+32
+--------------------------
+b'{"steps" : 651, "gps" : {"lat" : 24.7852543, "lon" : 120.9954125, "acc" : 5.0}, "cell" : [{"pci" : 244, "val" : -79}, {"pci" : 247, "val" : -92}]}\n'
+33
+recently entered into 244
+towards: 244
+comparing areas (0, 0) and (71.12223981515365, 251.12223981515365)
+(71.12223981515365, 251.12223981515365)
+
+recently entered into 247
+towards: 247
+comparing areas (71.12223981515365, 251.12223981515365) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, -108.87776018484635)
+
+final computed area:(79.83397169829928, -108.87776018484635)
+using backup area count: 30.(79.83397169829928, -108.87776018484635) and 31.(79.83397169829928, -108.87776018484635)--- len: 33
+
+var center = new google.maps.Marker({                    position: {lat: 24.7895763, lng: 120.9954602},                    map: map});
+var circle = new google.maps.Circle({                    strokeColor: '#FF0000',                    strokeOpacity: 0.8,                    strokeWeight: 0.5,                    fillColor: '#FF0000',                    fillOpacity: 0.02,                    map: map,                    center: {lat: 24.7895763, lng: 120.9954602},                    radius: 534.8224});
+var tan1 = new google.maps.Marker({                    position: {lat: 24.78802001355804, lng: 120.99044727431885},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "42F453",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan2 = new google.maps.Marker({                    position: {lat: 24.790425140258403, lng: 121.00067502045147},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4542F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan3 = new google.maps.Marker({                    position: {lat: 24.78802001355804, lng: 120.99044727431885},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41F476",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan4 = new google.maps.Marker({                    position: {lat: 24.790425140258403, lng: 121.00067502045147},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4286F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan5 = new google.maps.Marker({                    position: {lat: 24.78802001355804, lng: 120.99044727431885},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41f491",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan6 = new google.maps.Marker({                    position: {lat: 24.790425140258403, lng: 121.00067502045147},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41E5F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var user = new google.maps.Marker({                    position: {lat: 24.7852543, lng: 120.9954125},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "F4F142",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+
+33
+--------------------------
+b'{"steps" : 670, "gps" : {"lat" : 24.7851535, "lon" : 120.9954899, "acc" : 5.0}, "cell" : [{"pci" : 244, "val" : -77}, {"pci" : 247, "val" : -89}]}\n'
+34
+recently entered into 244
+towards: 244
+comparing areas (0, 0) and (71.12223981515365, 251.12223981515365)
+(71.12223981515365, 251.12223981515365)
+
+recently entered into 247
+towards: 247
+comparing areas (71.12223981515365, 251.12223981515365) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, -108.87776018484635)
+
+final computed area:(79.83397169829928, -108.87776018484635)
+using backup area count: 31.(79.83397169829928, -108.87776018484635) and 32.(79.83397169829928, -108.87776018484635)--- len: 34
+
+var center = new google.maps.Marker({                    position: {lat: 24.7895763, lng: 120.9954602},                    map: map});
+var circle = new google.maps.Circle({                    strokeColor: '#FF0000',                    strokeOpacity: 0.8,                    strokeWeight: 0.5,                    fillColor: '#FF0000',                    fillOpacity: 0.02,                    map: map,                    center: {lat: 24.7895763, lng: 120.9954602},                    radius: 550.2656000000001});
+var tan1 = new google.maps.Marker({                    position: {lat: 24.787975072715852, lng: 120.99030252605348},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "42F453",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan2 = new google.maps.Marker({                    position: {lat: 24.790449648159548, lng: 121.00082560143335},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4542F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan3 = new google.maps.Marker({                    position: {lat: 24.787975072715852, lng: 120.99030252605348},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41F476",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan4 = new google.maps.Marker({                    position: {lat: 24.790449648159548, lng: 121.00082560143335},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4286F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan5 = new google.maps.Marker({                    position: {lat: 24.787975072715852, lng: 120.99030252605348},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41f491",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan6 = new google.maps.Marker({                    position: {lat: 24.790449648159548, lng: 121.00082560143335},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41E5F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var user = new google.maps.Marker({                    position: {lat: 24.7851535, lng: 120.9954899},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "F4F142",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+
+34
+--------------------------
+b'{"steps" : 689, "gps" : {"lat" : 24.7850297, "lon" : 120.9955135, "acc" : 4.0}, "cell" : [{"pci" : 244, "val" : -79}, {"pci" : 247, "val" : -89}]}\n'
+35
+recently entered into 244
+towards: 244
+comparing areas (0, 0) and (71.12223981515365, 251.12223981515365)
+(71.12223981515365, 251.12223981515365)
+
+recently entered into 247
+towards: 247
+comparing areas (71.12223981515365, 251.12223981515365) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, -108.87776018484635)
+
+final computed area:(79.83397169829928, -108.87776018484635)
+using backup area count: 32.(79.83397169829928, -108.87776018484635) and 33.(79.83397169829928, -108.87776018484635)--- len: 35
+
+var center = new google.maps.Marker({                    position: {lat: 24.7895763, lng: 120.9954602},                    map: map});
+var circle = new google.maps.Circle({                    strokeColor: '#FF0000',                    strokeOpacity: 0.8,                    strokeWeight: 0.5,                    fillColor: '#FF0000',                    fillOpacity: 0.02,                    map: map,                    center: {lat: 24.7895763, lng: 120.9954602},                    radius: 565.7088});
+var tan1 = new google.maps.Marker({                    position: {lat: 24.78793013173448, lng: 120.99015777789293},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "42F453",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan2 = new google.maps.Marker({                    position: {lat: 24.790474155910058, lng: 121.0009761824748},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4542F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan3 = new google.maps.Marker({                    position: {lat: 24.78793013173448, lng: 120.99015777789293},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41F476",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan4 = new google.maps.Marker({                    position: {lat: 24.790474155910058, lng: 121.0009761824748},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4286F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan5 = new google.maps.Marker({                    position: {lat: 24.78793013173448, lng: 120.99015777789293},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41f491",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan6 = new google.maps.Marker({                    position: {lat: 24.790474155910058, lng: 121.0009761824748},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41E5F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var user = new google.maps.Marker({                    position: {lat: 24.7850297, lng: 120.9955135},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "F4F142",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+
+35
+--------------------------
+b'{"steps" : 707, "gps" : {"lat" : 24.7849428, "lon" : 120.9955468, "acc" : 5.0}, "cell" : [{"pci" : 244, "val" : -90}, {"pci" : 247, "val" : -90}]}\n'
+36
+recently entered into 244
+towards: 244
+comparing areas (0, 0) and (71.12223981515365, 251.12223981515365)
+(71.12223981515365, 251.12223981515365)
+
+recently entered into 247
+towards: 247
+comparing areas (71.12223981515365, 251.12223981515365) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, -108.87776018484635)
+
+final computed area:(79.83397169829928, -108.87776018484635)
+using backup area count: 33.(79.83397169829928, -108.87776018484635) and 34.(79.83397169829928, -108.87776018484635)--- len: 36
+
+var center = new google.maps.Marker({                    position: {lat: 24.7895763, lng: 120.9954602},                    map: map});
+var circle = new google.maps.Circle({                    strokeColor: '#FF0000',                    strokeOpacity: 0.8,                    strokeWeight: 0.5,                    fillColor: '#FF0000',                    fillOpacity: 0.02,                    map: map,                    center: {lat: 24.7895763, lng: 120.9954602},                    radius: 580.3392});
+var tan1 = new google.maps.Marker({                    position: {lat: 24.787887555939527, lng: 120.99002064815329},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "42F453",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan2 = new google.maps.Marker({                    position: {lat: 24.790497373639997, lng: 121.00111883825309},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4542F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan3 = new google.maps.Marker({                    position: {lat: 24.787887555939527, lng: 120.99002064815329},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41F476",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan4 = new google.maps.Marker({                    position: {lat: 24.790497373639997, lng: 121.00111883825309},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4286F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan5 = new google.maps.Marker({                    position: {lat: 24.787887555939527, lng: 120.99002064815329},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41f491",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan6 = new google.maps.Marker({                    position: {lat: 24.790497373639997, lng: 121.00111883825309},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41E5F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var user = new google.maps.Marker({                    position: {lat: 24.7849428, lng: 120.9955468},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "F4F142",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+
+36
+--------------------------
+b'{"steps" : 728, "gps" : {"lat" : 24.7847854, "lon" : 120.9956196, "acc" : 5.0}, "cell" : [{"pci" : 244, "val" : -93}, {"pci" : 247, "val" : -96}, {"pci" : 243, "val" : -104}]}\n'
+37
+recently entered into 244
+towards: 244
+comparing areas (0, 0) and (71.12223981515365, 251.12223981515365)
+(71.12223981515365, 251.12223981515365)
+
+recently entered into 247
+towards: 247
+comparing areas (71.12223981515365, 251.12223981515365) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, -108.87776018484635)
+
+recently left from 248
+conflict in orientations between current read and 37
+static at: 248
+comparing areas (79.83397169829928, -108.87776018484635) and (360, 360)
+(360, 360)
+
+recently left from 246
+conflict in orientations between current read and 37
+static at: 246
+comparing areas (360, 360) and (360, 360)
+(360, 360)
+
+last cell: {'pci': 243, 'val': -116}
+read cell: {'pci': 243, 'val': -104}
+towards: 243
+comparing areas (360, 360) and (22.672068367902227, 202.67206836790223)
+(360, 360)
+
+final computed area:(360, 360)
+using backup area count: 34.(79.83397169829928, -108.87776018484635) and 35.(79.83397169829928, -108.87776018484635)--- len: 37
+
+var center = new google.maps.Marker({                    position: {lat: 24.7895763, lng: 120.9954602},                    map: map});
+var circle = new google.maps.Circle({                    strokeColor: '#FF0000',                    strokeOpacity: 0.8,                    strokeWeight: 0.5,                    fillColor: '#FF0000',                    fillOpacity: 0.02,                    map: map,                    center: {lat: 24.7895763, lng: 120.9954602},                    radius: 597.408});
+var tan1 = new google.maps.Marker({                    position: {lat: 24.79494891921949, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "42F453",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan2 = new google.maps.Marker({                    position: {lat: 24.79494891921949, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4542F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan3 = new google.maps.Marker({                    position: {lat: 24.787837884020846, lng: 120.98986066357611},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41F476",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan4 = new google.maps.Marker({                    position: {lat: 24.790524460820702, lng: 121.001285270062},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4286F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan5 = new google.maps.Marker({                    position: {lat: 24.787837884020846, lng: 120.98986066357611},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41f491",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan6 = new google.maps.Marker({                    position: {lat: 24.790524460820702, lng: 121.001285270062},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41E5F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var user = new google.maps.Marker({                    position: {lat: 24.7847854, lng: 120.9956196},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "F4F142",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+
+37
+--------------------------
+b'{"steps" : 746, "gps" : {"lat" : 24.784701, "lon" : 120.9957178, "acc" : 4.0}, "cell" : [{"pci" : 244, "val" : -94}, {"pci" : 247, "val" : -97}]}\n'
+38
+recently entered into 244
+towards: 244
+comparing areas (0, 0) and (71.12223981515365, 251.12223981515365)
+(71.12223981515365, 251.12223981515365)
+
+recently entered into 247
+towards: 247
+comparing areas (71.12223981515365, 251.12223981515365) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, -108.87776018484635)
+
+final computed area:(79.83397169829928, -108.87776018484635)
+using backup area count: 35.(79.83397169829928, -108.87776018484635) and 36.(79.83397169829928, -108.87776018484635)--- len: 38
+
+var center = new google.maps.Marker({                    position: {lat: 24.7895763, lng: 120.9954602},                    map: map});
+var circle = new google.maps.Circle({                    strokeColor: '#FF0000',                    strokeOpacity: 0.8,                    strokeWeight: 0.5,                    fillColor: '#FF0000',                    fillOpacity: 0.02,                    map: map,                    center: {lat: 24.7895763, lng: 120.9954602},                    radius: 612.0384});
+var tan1 = new google.maps.Marker({                    position: {lat: 24.787795307955218, lng: 120.98972353404042},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "42F453",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan2 = new google.maps.Marker({                    position: {lat: 24.790547678257695, lng: 121.00142792595591},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4542F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan3 = new google.maps.Marker({                    position: {lat: 24.787795307955218, lng: 120.98972353404042},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41F476",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan4 = new google.maps.Marker({                    position: {lat: 24.790547678257695, lng: 121.00142792595591},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4286F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan5 = new google.maps.Marker({                    position: {lat: 24.787795307955218, lng: 120.98972353404042},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41f491",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan6 = new google.maps.Marker({                    position: {lat: 24.790547678257695, lng: 121.00142792595591},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41E5F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var user = new google.maps.Marker({                    position: {lat: 24.784701, lng: 120.9957178},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "F4F142",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+
+38
+--------------------------
+b'{"steps" : 763, "gps" : {"lat" : 24.7846012, "lon" : 120.9958114, "acc" : 5.0}, "cell" : [{"pci" : 247, "val" : -91}, {"pci" : 244, "val" : -95}]}\n'
+39
+recently entered into 247
+towards: 247
+comparing areas (0, 0) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, 259.83397169829925)
+
+recently entered into 244
+towards: 244
+comparing areas (79.83397169829928, 259.83397169829925) and (71.12223981515365, 251.12223981515365)
+(79.83397169829928, -108.87776018484635)
+
+final computed area:(79.83397169829928, -108.87776018484635)
+using backup area count: 36.(79.83397169829928, -108.87776018484635) and 37.(360, 360)--- len: 39
+
+var center = new google.maps.Marker({                    position: {lat: 24.7895763, lng: 120.9954602},                    map: map});
+var circle = new google.maps.Circle({                    strokeColor: '#FF0000',                    strokeOpacity: 0.8,                    strokeWeight: 0.5,                    fillColor: '#FF0000',                    fillOpacity: 0.02,                    map: map,                    center: {lat: 24.7895763, lng: 120.9954602},                    radius: 625.856});
+var tan1 = new google.maps.Marker({                    position: {lat: 24.787755097111866, lng: 120.9895940228987},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "42F453",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan2 = new google.maps.Marker({                    position: {lat: 24.79056960571293, lng: 121.00156265657154},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4542F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan3 = new google.maps.Marker({                    position: {lat: 24.787755097111866, lng: 120.9895940228987},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41F476",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan4 = new google.maps.Marker({                    position: {lat: 24.79056960571293, lng: 121.00156265657154},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4286F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan5 = new google.maps.Marker({                    position: {lat: 24.795204758229943, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41f491",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan6 = new google.maps.Marker({                    position: {lat: 24.795204758229943, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41E5F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var user = new google.maps.Marker({                    position: {lat: 24.7846012, lng: 120.9958114},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "F4F142",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+
+39
+--------------------------
+b'{"steps" : 781, "gps" : {"lat" : 24.7845076, "lon" : 120.9959212, "acc" : 4.0}, "cell" : [{"pci" : 244, "val" : -94}, {"pci" : 247, "val" : -100}]}\n'
+40
+recently entered into 244
+towards: 244
+comparing areas (0, 0) and (71.12223981515365, 251.12223981515365)
+(71.12223981515365, 251.12223981515365)
+
+recently entered into 247
+towards: 247
+comparing areas (71.12223981515365, 251.12223981515365) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, -108.87776018484635)
+
+final computed area:(79.83397169829928, -108.87776018484635)
+using backup area count: 37.(360, 360) and 38.(79.83397169829928, -108.87776018484635)--- len: 40
+
+var center = new google.maps.Marker({                    position: {lat: 24.7895763, lng: 120.9954602},                    map: map});
+var circle = new google.maps.Circle({                    strokeColor: '#FF0000',                    strokeOpacity: 0.8,                    strokeWeight: 0.5,                    fillColor: '#FF0000',                    fillOpacity: 0.02,                    map: map,                    center: {lat: 24.7895763, lng: 120.9954602},                    radius: 640.4864});
+var tan1 = new google.maps.Marker({                    position: {lat: 24.787712520803336, lng: 120.98945689354605},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "42F453",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan2 = new google.maps.Marker({                    position: {lat: 24.79059282288702, lng: 121.00170531256936},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4542F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan3 = new google.maps.Marker({                    position: {lat: 24.795336332578177, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41F476",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan4 = new google.maps.Marker({                    position: {lat: 24.795336332578177, lng: 120.99546020000002},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4286F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan5 = new google.maps.Marker({                    position: {lat: 24.787712520803336, lng: 120.98945689354605},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41f491",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan6 = new google.maps.Marker({                    position: {lat: 24.79059282288702, lng: 121.00170531256936},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41E5F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var user = new google.maps.Marker({                    position: {lat: 24.7845076, lng: 120.9959212},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "F4F142",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+
+40
+--------------------------
+b'{"steps" : 799, "gps" : {"lat" : 24.7844237, "lon" : 120.9960171, "acc" : 5.0}, "cell" : [{"pci" : 244, "val" : -97}, {"pci" : 247, "val" : -102}]}\n'
+41
+recently entered into 244
+towards: 244
+comparing areas (0, 0) and (71.12223981515365, 251.12223981515365)
+(71.12223981515365, 251.12223981515365)
+
+recently entered into 247
+towards: 247
+comparing areas (71.12223981515365, 251.12223981515365) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, -108.87776018484635)
+
+final computed area:(79.83397169829928, -108.87776018484635)
+using backup area count: 38.(79.83397169829928, -108.87776018484635) and 39.(79.83397169829928, -108.87776018484635)--- len: 41
+
+var center = new google.maps.Marker({                    position: {lat: 24.7895763, lng: 120.9954602},                    map: map});
+var circle = new google.maps.Circle({                    strokeColor: '#FF0000',                    strokeOpacity: 0.8,                    strokeWeight: 0.5,                    fillColor: '#FF0000',                    fillOpacity: 0.02,                    map: map,                    center: {lat: 24.7895763, lng: 120.9954602},                    radius: 655.1168});
+var tan1 = new google.maps.Marker({                    position: {lat: 24.787669944369874, lng: 120.98931976428753},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "42F453",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan2 = new google.maps.Marker({                    position: {lat: 24.790616039925897, lng: 121.00184796862061},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4542F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan3 = new google.maps.Marker({                    position: {lat: 24.787669944369874, lng: 120.98931976428753},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41F476",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan4 = new google.maps.Marker({                    position: {lat: 24.790616039925897, lng: 121.00184796862061},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4286F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan5 = new google.maps.Marker({                    position: {lat: 24.787669944369874, lng: 120.98931976428753},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41f491",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan6 = new google.maps.Marker({                    position: {lat: 24.790616039925897, lng: 121.00184796862061},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41E5F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var user = new google.maps.Marker({                    position: {lat: 24.7844237, lng: 120.9960171},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "F4F142",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+
+41
+--------------------------
+b'{"steps" : 817, "gps" : {"lat" : 24.7843197, "lon" : 120.9961272, "acc" : 4.0}, "cell" : [{"pci" : 244, "val" : -95}, {"pci" : 247, "val" : -101}]}\n'
+42
+recently entered into 244
+towards: 244
+comparing areas (0, 0) and (71.12223981515365, 251.12223981515365)
+(71.12223981515365, 251.12223981515365)
+
+recently entered into 247
+towards: 247
+comparing areas (71.12223981515365, 251.12223981515365) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, -108.87776018484635)
+
+final computed area:(79.83397169829928, -108.87776018484635)
+using backup area count: 39.(79.83397169829928, -108.87776018484635) and 40.(79.83397169829928, -108.87776018484635)--- len: 42
+
+var center = new google.maps.Marker({                    position: {lat: 24.7895763, lng: 120.9954602},                    map: map});
+var circle = new google.maps.Circle({                    strokeColor: '#FF0000',                    strokeOpacity: 0.8,                    strokeWeight: 0.5,                    fillColor: '#FF0000',                    fillOpacity: 0.02,                    map: map,                    center: {lat: 24.7895763, lng: 120.9954602},                    radius: 669.7472});
+var tan1 = new google.maps.Marker({                    position: {lat: 24.7876273678115, lng: 120.98918263512303},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "42F453",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan2 = new google.maps.Marker({                    position: {lat: 24.790639256829575, lng: 121.00199062472518},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4542F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan3 = new google.maps.Marker({                    position: {lat: 24.7876273678115, lng: 120.98918263512303},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41F476",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan4 = new google.maps.Marker({                    position: {lat: 24.790639256829575, lng: 121.00199062472518},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4286F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan5 = new google.maps.Marker({                    position: {lat: 24.7876273678115, lng: 120.98918263512303},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41f491",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan6 = new google.maps.Marker({                    position: {lat: 24.790639256829575, lng: 121.00199062472518},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41E5F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var user = new google.maps.Marker({                    position: {lat: 24.7843197, lng: 120.9961272},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "F4F142",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+
+42
+--------------------------
+b'{"steps" : 854, "gps" : {"lat" : 24.7841953, "lon" : 120.9963593, "acc" : 4.0}, "cell" : [{"pci" : 244, "val" : -92}, {"pci" : 247, "val" : -101}]}\n'
+43
+recently entered into 244
+towards: 244
+comparing areas (0, 0) and (71.12223981515365, 251.12223981515365)
+(71.12223981515365, 251.12223981515365)
+
+recently entered into 247
+towards: 247
+comparing areas (71.12223981515365, 251.12223981515365) and (79.83397169829928, 259.83397169829925)
+(79.83397169829928, -108.87776018484635)
+
+final computed area:(79.83397169829928, -108.87776018484635)
+using backup area count: 40.(79.83397169829928, -108.87776018484635) and 41.(79.83397169829928, -108.87776018484635)--- len: 43
+
+var center = new google.maps.Marker({                    position: {lat: 24.7895763, lng: 120.9954602},                    map: map});
+var circle = new google.maps.Circle({                    strokeColor: '#FF0000',                    strokeOpacity: 0.8,                    strokeWeight: 0.5,                    fillColor: '#FF0000',                    fillOpacity: 0.02,                    map: map,                    center: {lat: 24.7895763, lng: 120.9954602},                    radius: 699.8208000000001});
+var tan1 = new google.maps.Marker({                    position: {lat: 24.787539848938078, lng: 120.98890075880286},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "42F453",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan2 = new google.maps.Marker({                    position: {lat: 24.7906869800403, lng: 121.00228386244135},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4542F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan3 = new google.maps.Marker({                    position: {lat: 24.787539848938078, lng: 120.98890075880286},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41F476",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan4 = new google.maps.Marker({                    position: {lat: 24.7906869800403, lng: 121.00228386244135},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "4286F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan5 = new google.maps.Marker({                    position: {lat: 24.787539848938078, lng: 120.98890075880286},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41f491",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var tan6 = new google.maps.Marker({                    position: {lat: 24.7906869800403, lng: 121.00228386244135},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "41E5F4",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+var user = new google.maps.Marker({                    position: {lat: 24.7841953, lng: 120.9963593},                    icon: new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|" + "F4F142",                    new google.maps.Size(21, 34),                    new google.maps.Point(0,0),                    new google.maps.Point(10, 34)),                    map: map});
+
+43
+--------------------------

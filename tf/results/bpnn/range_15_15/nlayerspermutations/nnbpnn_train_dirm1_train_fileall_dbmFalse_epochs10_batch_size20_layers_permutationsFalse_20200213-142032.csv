@@ -1,0 +1,2 @@
+iteration,loss,acc,binary_crossentropy,val_loss,val_acc,val_binary_crossentropy
+python bpnn_2.py --train_file /home/gio/Workspace/MagRss/tf/train/files/m1/master_4.csv --epochs 10 --batch_size 20 --tensorboard --features lat lon bear heading magx_kalman magy_kalman magz_kalman magx_lowess magy_lowess magz_lowess mag mag_kalman mag_lowess timestamp intersection_points,7.4310,0.5190,7.4199,7.3639,0.5232,7.3549

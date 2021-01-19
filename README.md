@@ -49,7 +49,31 @@ latitude | longitude | magnetometer X | magnetometer Y | magnetometer Z | cellID
 24.7893686 | 120.9950572 | 15.599999 | 15.54 | -43.02 | -85 | -80 | ... | SIDEWALK | 1700
 24.789374 | 120.9950519 | 38.579998 | 15.0 | -21.06 | -85 | -80 | ... | SIDEWALK | 1700
 ... | ... | ... | ... | ... | ... | ... | ... | ... | ...
-24.7895087 | 120.9949591 | 43.379997 | 8.4 | 8.58 | 0 | -94 | ... | ROAD | 1700
+24.7895087 | 120.9949591 | 43.379997 | 8.4 | 8.58 | - | -94 | ... | ROAD | 1700
 ... | ... | ... | ... | ... | ... | ... | ... | ... | ...
 
 Notice how *cellID001* does not have a measurement in all entries, this is because the smartphone won't always be attached to this Access Point for all locations where the logs are being collected.
+
+## Data Preprocessing
+
+### Magnetometer Signal Filtering
+
+Raw magnetometer signal from the smartphone tends to be really noisy. We apply a Kalman Filter to reduce noise and estimate the actual 'ground truth'.
+
+![Kalman Magnetometer](docs/assets/kalman_magx.png)
+
+Use autocorrelation function to find the signal's repeating pattern. There exists a linear correlation between two values of the same function at different time windows.
+
+| | |
+| :---: | :---: |
+![Magnetometer Frequency](docs/assets/magx_freq.png) | ![Magnetometer Autocorrelation](docs/assets/autocor_indices.png) |
+
+### Cellular Access Points Filtering
+
+We log and plot the attached cells and their intensity in dBm, and also overlay vertical lines at the previously obtained indexes to confirm that there is indeed a 'cellular connection' pattern.
+
+![Attached cells](docs/assets/rsrp_preprocessing.png)
+
+Notice however that despite collecting data multiple times over the same closed loop, there are some cells *(cellID443, cellID476, cellID188, and cellID 195 in this case)* that do not 'appear' (the smartphone does not connect to) at all times.
+
+In this case, we performed a one-way Analysis of Variance (ANOVA) between window period to clean-up these residual signals.

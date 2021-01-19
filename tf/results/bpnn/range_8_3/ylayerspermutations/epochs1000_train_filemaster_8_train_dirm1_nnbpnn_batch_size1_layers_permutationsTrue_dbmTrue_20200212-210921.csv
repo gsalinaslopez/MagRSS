@@ -1,0 +1,136 @@
+iteration,loss,acc,binary_crossentropy,val_loss,val_acc,val_binary_crossentropy
+python bpnn_2.py --train_file /home/gio/MagRss/tf/train/files/m1/master_8.csv --dbm --epochs 1000 --batch_size 1 --tensorboard --features lat lon bear heading magx_lowess magy_lowess magz_lowess mag_lowess --layer dense 128 None None --layer dense 128 None None,,,,"
+=================================================================
+Total",params:,"0
+_________________________________________________________________"
+python bpnn_2.py --train_file /home/gio/MagRss/tf/train/files/m1/master_8.csv --dbm --epochs 1000 --batch_size 1 --tensorboard --features lat lon bear heading magx_lowess magy_lowess magz_lowess mag_lowess --layer dense 128 None 0.2 --layer dense 128 None 0.2,,,,"
+=================================================================
+Total",params:,"0
+_________________________________________________________________"
+python bpnn_2.py --train_file /home/gio/MagRss/tf/train/files/m1/master_8.csv --dbm --epochs 1000 --batch_size 1 --tensorboard --features lat lon bear heading magx_lowess magy_lowess magz_lowess mag_lowess --layer dense 128 None 0.3 --layer dense 128 None 0.3,,,,"
+=================================================================
+Total",params:,"0
+_________________________________________________________________"
+python bpnn_2.py --train_file /home/gio/MagRss/tf/train/files/m1/master_8.csv --dbm --epochs 1000 --batch_size 1 --tensorboard --features lat lon bear heading magx_lowess magy_lowess magz_lowess mag_lowess --layer dense 128 None 0.4 --layer dense 128 None 0.4,,,,"
+=================================================================
+Total",params:,"0
+_________________________________________________________________"
+python bpnn_2.py --train_file /home/gio/MagRss/tf/train/files/m1/master_8.csv --dbm --epochs 1000 --batch_size 1 --tensorboard --features lat lon bear heading magx_lowess magy_lowess magz_lowess mag_lowess --layer dense 128 None 0.5 --layer dense 128 None 0.5,,,,"
+=================================================================
+Total",params:,"0
+_________________________________________________________________"
+python bpnn_2.py --train_file /home/gio/MagRss/tf/train/files/m1/master_8.csv --dbm --epochs 1000 --batch_size 1 --tensorboard --features lat lon bear heading magx_lowess magy_lowess magz_lowess mag_lowess --layer dense 128 0.1 None --layer dense 128 0.1 None,,,,"
+=================================================================
+Total",params:,"0
+_________________________________________________________________"
+python bpnn_2.py --train_file /home/gio/MagRss/tf/train/files/m1/master_8.csv --dbm --epochs 1000 --batch_size 1 --tensorboard --features lat lon bear heading magx_lowess magy_lowess magz_lowess mag_lowess --layer dense 128 0.1 0.2 --layer dense 128 0.1 0.2,,,,"
+=================================================================
+Total",params:,"0
+_________________________________________________________________"
+python bpnn_2.py --train_file /home/gio/MagRss/tf/train/files/m1/master_8.csv --dbm --epochs 1000 --batch_size 1 --tensorboard --features lat lon bear heading magx_lowess magy_lowess magz_lowess mag_lowess --layer dense 128 0.1 0.3 --layer dense 128 0.1 0.3,,,,"
+=================================================================
+Total",params:,"0
+_________________________________________________________________"
+python bpnn_2.py --train_file /home/gio/MagRss/tf/train/files/m1/master_8.csv --dbm --epochs 1000 --batch_size 1 --tensorboard --features lat lon bear heading magx_lowess magy_lowess magz_lowess mag_lowess --layer dense 128 0.1 0.4 --layer dense 128 0.1 0.4,,,,"
+=================================================================
+Total",params:,"0
+_________________________________________________________________"
+python bpnn_2.py --train_file /home/gio/MagRss/tf/train/files/m1/master_8.csv --dbm --epochs 1000 --batch_size 1 --tensorboard --features lat lon bear heading magx_lowess magy_lowess magz_lowess mag_lowess --layer dense 128 0.1 0.5 --layer dense 128 0.1 0.5,,,,"
+=================================================================
+Total",params:,"0
+_________________________________________________________________"
+python bpnn_2.py --train_file /home/gio/MagRss/tf/train/files/m1/master_8.csv --dbm --epochs 1000 --batch_size 1 --tensorboard --features lat lon bear heading magx_lowess magy_lowess magz_lowess mag_lowess --layer dense 128 0.01 None --layer dense 128 0.01 None,,,,"
+=================================================================
+Total",params:,"0
+_________________________________________________________________"
+python bpnn_2.py --train_file /home/gio/MagRss/tf/train/files/m1/master_8.csv --dbm --epochs 1000 --batch_size 1 --tensorboard --features lat lon bear heading magx_lowess magy_lowess magz_lowess mag_lowess --layer dense 128 0.01 0.2 --layer dense 128 0.01 0.2,,,,"
+=================================================================
+Total",params:,"0
+_________________________________________________________________"
+python bpnn_2.py --train_file /home/gio/MagRss/tf/train/files/m1/master_8.csv --dbm --epochs 1000 --batch_size 1 --tensorboard --features lat lon bear heading magx_lowess magy_lowess magz_lowess mag_lowess --layer dense 128 0.01 0.3 --layer dense 128 0.01 0.3,,,,"
+=================================================================
+Total",params:,"0
+_________________________________________________________________"
+python bpnn_2.py --train_file /home/gio/MagRss/tf/train/files/m1/master_8.csv --dbm --epochs 1000 --batch_size 1 --tensorboard --features lat lon bear heading magx_lowess magy_lowess magz_lowess mag_lowess --layer dense 128 0.01 0.4 --layer dense 128 0.01 0.4,,,,"
+=================================================================
+Total",params:,"0
+_________________________________________________________________"
+python bpnn_2.py --train_file /home/gio/MagRss/tf/train/files/m1/master_8.csv --dbm --epochs 1000 --batch_size 1 --tensorboard --features lat lon bear heading magx_lowess magy_lowess magz_lowess mag_lowess --layer dense 128 0.01 0.5 --layer dense 128 0.01 0.5,,,,"
+=================================================================
+Total",params:,"0
+_________________________________________________________________"
+python bpnn_2.py --train_file /home/gio/MagRss/tf/train/files/m1/master_8.csv --dbm --epochs 1000 --batch_size 1 --tensorboard --features lat lon bear heading magx_lowess magy_lowess magz_lowess mag_lowess --layer dense 128 0.001 None --layer dense 128 0.001 None,,,,"
+=================================================================
+Total",params:,"0
+_________________________________________________________________"
+python bpnn_2.py --train_file /home/gio/MagRss/tf/train/files/m1/master_8.csv --dbm --epochs 1000 --batch_size 1 --tensorboard --features lat lon bear heading magx_lowess magy_lowess magz_lowess mag_lowess --layer dense 128 0.001 0.2 --layer dense 128 0.001 0.2,,,,"
+=================================================================
+Total",params:,"0
+_________________________________________________________________"
+python bpnn_2.py --train_file /home/gio/MagRss/tf/train/files/m1/master_8.csv --dbm --epochs 1000 --batch_size 1 --tensorboard --features lat lon bear heading magx_lowess magy_lowess magz_lowess mag_lowess --layer dense 128 0.001 0.3 --layer dense 128 0.001 0.3,,,,"
+=================================================================
+Total",params:,"0
+_________________________________________________________________"
+python bpnn_2.py --train_file /home/gio/MagRss/tf/train/files/m1/master_8.csv --dbm --epochs 1000 --batch_size 1 --tensorboard --features lat lon bear heading magx_lowess magy_lowess magz_lowess mag_lowess --layer dense 128 0.001 0.4 --layer dense 128 0.001 0.4,,,,"
+=================================================================
+Total",params:,"0
+_________________________________________________________________"
+python bpnn_2.py --train_file /home/gio/MagRss/tf/train/files/m1/master_8.csv --dbm --epochs 1000 --batch_size 1 --tensorboard --features lat lon bear heading magx_lowess magy_lowess magz_lowess mag_lowess --layer dense 128 0.001 0.5 --layer dense 128 0.001 0.5,,,,"
+=================================================================
+Total",params:,"0
+_________________________________________________________________"
+python bpnn_2.py --train_file /home/gio/MagRss/tf/train/files/m1/master_8.csv --dbm --epochs 1000 --batch_size 1 --tensorboard --features lat lon bear heading magx_lowess magy_lowess magz_lowess mag_lowess --layer dense 128 0.0001 None --layer dense 128 0.0001 None,,,,"
+=================================================================
+Total",params:,"0
+_________________________________________________________________"
+python bpnn_2.py --train_file /home/gio/MagRss/tf/train/files/m1/master_8.csv --dbm --epochs 1000 --batch_size 1 --tensorboard --features lat lon bear heading magx_lowess magy_lowess magz_lowess mag_lowess --layer dense 128 0.0001 0.2 --layer dense 128 0.0001 0.2,,,,"
+=================================================================
+Total",params:,"0
+_________________________________________________________________"
+python bpnn_2.py --train_file /home/gio/MagRss/tf/train/files/m1/master_8.csv --dbm --epochs 1000 --batch_size 1 --tensorboard --features lat lon bear heading magx_lowess magy_lowess magz_lowess mag_lowess --layer dense 128 0.0001 0.3 --layer dense 128 0.0001 0.3,,,,"
+=================================================================
+Total",params:,"0
+_________________________________________________________________"
+python bpnn_2.py --train_file /home/gio/MagRss/tf/train/files/m1/master_8.csv --dbm --epochs 1000 --batch_size 1 --tensorboard --features lat lon bear heading magx_lowess magy_lowess magz_lowess mag_lowess --layer dense 128 0.0001 0.4 --layer dense 128 0.0001 0.4,,,,"
+=================================================================
+Total",params:,"0
+_________________________________________________________________"
+python bpnn_2.py --train_file /home/gio/MagRss/tf/train/files/m1/master_8.csv --dbm --epochs 1000 --batch_size 1 --tensorboard --features lat lon bear heading magx_lowess magy_lowess magz_lowess mag_lowess --layer dense 128 0.0001 0.5 --layer dense 128 0.0001 0.5,,,,"
+=================================================================
+Total",params:,"0
+_________________________________________________________________"
+python bpnn_2.py --train_file /home/gio/MagRss/tf/train/files/m1/master_8.csv --dbm --epochs 1000 --batch_size 1 --tensorboard --features lat lon bear heading magx_lowess magy_lowess magz_lowess --layer dense 128 None None --layer dense 128 None None,,,,"
+=================================================================
+Total",params:,"0
+_________________________________________________________________"
+python bpnn_2.py --train_file /home/gio/MagRss/tf/train/files/m1/master_8.csv --dbm --epochs 1000 --batch_size 1 --tensorboard --features lat lon bear heading magx_lowess magy_lowess magz_lowess --layer dense 128 None 0.2 --layer dense 128 None 0.2,,,,"
+=================================================================
+Total",params:,"0
+_________________________________________________________________"
+python bpnn_2.py --train_file /home/gio/MagRss/tf/train/files/m1/master_8.csv --dbm --epochs 1000 --batch_size 1 --tensorboard --features lat lon bear heading magx_lowess magy_lowess magz_lowess --layer dense 128 None 0.3 --layer dense 128 None 0.3,,,,"
+=================================================================
+Total",params:,"0
+_________________________________________________________________"
+python bpnn_2.py --train_file /home/gio/MagRss/tf/train/files/m1/master_8.csv --dbm --epochs 1000 --batch_size 1 --tensorboard --features lat lon bear heading magx_lowess magy_lowess magz_lowess --layer dense 128 None 0.4 --layer dense 128 None 0.4,,,,"
+=================================================================
+Total",params:,"0
+_________________________________________________________________"
+python bpnn_2.py --train_file /home/gio/MagRss/tf/train/files/m1/master_8.csv --dbm --epochs 1000 --batch_size 1 --tensorboard --features lat lon bear heading magx_lowess magy_lowess magz_lowess --layer dense 128 None 0.5 --layer dense 128 None 0.5,,,,"
+=================================================================
+Total",params:,"0
+_________________________________________________________________"
+python bpnn_2.py --train_file /home/gio/MagRss/tf/train/files/m1/master_8.csv --dbm --epochs 1000 --batch_size 1 --tensorboard --features lat lon bear heading magx_lowess magy_lowess magz_lowess --layer dense 128 0.1 None --layer dense 128 0.1 None,,,,"
+=================================================================
+Total",params:,"0
+_________________________________________________________________"
+python bpnn_2.py --train_file /home/gio/MagRss/tf/train/files/m1/master_8.csv --dbm --epochs 1000 --batch_size 1 --tensorboard --features lat lon bear heading magx_lowess magy_lowess magz_lowess --layer dense 128 0.1 0.2 --layer dense 128 0.1 0.2,,,,"
+=================================================================
+Total",params:,"0
+_________________________________________________________________"
+python bpnn_2.py --train_file /home/gio/MagRss/tf/train/files/m1/master_8.csv --dbm --epochs 1000 --batch_size 1 --tensorboard --features lat lon bear heading magx_lowess magy_lowess magz_lowess --layer dense 128 0.1 0.3 --layer dense 128 0.1 0.3,7.1880,0.5340,7.1881,7.0724,0.5415,7.0724
+python bpnn_2.py --train_file /home/gio/MagRss/tf/train/files/m1/master_8.csv --dbm --epochs 1000 --batch_size 1 --tensorboard --features lat lon bear heading magx_lowess magy_lowess magz_lowess --layer dense 128 0.1 0.4 --layer dense 128 0.1 0.4,0.6083,0.7512,0.5662,0.5237,0.8266,0.4813
+python bpnn_2.py --train_file /home/gio/MagRss/tf/train/files/m1/master_8.csv --dbm --epochs 1000 --batch_size 1 --tensorboard --features lat lon bear heading magx_lowess magy_lowess magz_lowess --layer dense 128 0.1 0.5 --layer dense 128 0.1 0.5,7.1705,0.5351,7.1707,7.1421,0.5370,7.1421
+python bpnn_2.py --train_file /home/gio/MagRss/tf/train/files/m1/master_8.csv --dbm --epochs 1000 --batch_size 1 --tensorboard --features lat lon bear heading magx_lowess magy_lowess magz_lowess --layer dense 128 0.01 None --layer dense 128 0.01 None,7.1230,0.5382,7.1232,7.3322,0.5247,7.3322
+python bpnn_2.py --train_file /home/gio/MagRss/tf/train/files/m1/master_8.csv --dbm --epochs 1000 --batch_size 1 --tensorboard --features lat lon bear heading magx_lowess magy_lowess magz_lowess --layer dense 128 0.01 0.2 --layer dense 128 0.01 0.2,7.1848,0.5342,7.1850,7.0851,0.5407,7.0851
+python bpnn_2.py --train_file /home/gio/MagRss/tf/train/files/m1/master_8.csv --dbm --epochs 1000 --batch_size 1 --tensorboard --features lat lon bear heading magx_lowess magy_lowess magz_lowess --layer dense 128 0.01 0.3 --layer dense 128 0.01 0.3,0.4430,0.8324,0.4240,0.3622,0.8743,0.3423
+python bpnn_2.py --train_file /home/gio/MagRss/tf/train/files/m1/master_8.csv --dbm --epochs 1000 --batch_size 1 --tensorboard --features lat lon bear heading magx_lowess magy_lowess magz_lowess --layer dense 128 0.01 0.4 --layer dense 128 0.01 0.4,7.1737,0.5349,7.1739,7.1294,0.5378,7.1294

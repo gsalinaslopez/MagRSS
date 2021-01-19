@@ -1,0 +1,2 @@
+iteration,bpnn_acc
+"['acc', 'bear', 'bearAcc', 'heading', 'intersection_points', 'lat', 'lon', 'magnetometer_x', 'magnetometer_y', 'magnetometer_z', 'timestamp']",0.5102

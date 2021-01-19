@@ -1,0 +1,2 @@
+iteration,loss,acc,binary_crossentropy,val_loss,val_acc,val_binary_crossentropy
+python rnn.py --dbm --epochs 1 --batch_size 20 --tensorboard --features acc bear heading lat lon,0.6958,0.5043,0.6998,0.6945,0.5154,<built-in method rstrip of str object at 0x00000252FB72D970>

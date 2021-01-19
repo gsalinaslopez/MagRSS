@@ -1,0 +1,74 @@
+['heading', 'magnetometer_x', 'magnetometer_y', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']  0.77 
+ydbm epochs 20
+
+['heading', 'magnetometer_x', 'magnetometer_y', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']	0.7721
+ydbm epochs 20
+
+['heading', 'lat', 'lon', 'magnetometer_x', 'magnetometer_y', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']    0.9673
+ydbm epochs 200
+
+['heading', 'lon', 'magnetometer_x', 'magnetometer_y', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']	0.9695
+ydbm epochs 200
+
+['lat', 'lon', 'magnetometer_x', 'magnetometer_y', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']	0.9632
+ydbm epochs 200
+
+['heading', 'lat', 'lon', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']	0.9696
+ydbm epochs 200
+
+['heading', 'lat', 'magnetometer_x', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']	0.9711
+ydbm epochs 200
+
+['heading', 'lat', 'magnetometer_y', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']	0.9834
+ydbm epochs 200
+
+['heading', 'lon', 'magnetometer_x', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']	0.9772
+ydbm epochs 200
+
+['heading', 'lon', 'magnetometer_y', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']	0.9681
+ydbm epochs 200
+
+['heading', 'magnetometer_x', 'magnetometer_y', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']	0.9814
+ydbm epochs 200
+
+['lat', 'lon', 'magnetometer_y', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']	0.9298
+ydbm epochs 200
+
+['heading', 'lat', 'lon', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']	0.9581
+ydbm epochs 200
+
+['heading', 'lon', 'magnetometer_x', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']	0.9666
+ydbm epochs 200
+
+['heading', 'lon', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']	0.9638
+ydbm epochs 200
+
+['heading', 'magnetometer_x', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']	0.9844
+ydbm epochs 200
+
+['heading', 'magnetometer_y', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']	0.9856
+ydbm epochs 200
+
+['lat', 'magnetometer_x', 'magnetometer_y', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']	0.9864
+ydbm epochs 200
+
+['lat', 'magnetometer_x', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']	0.9894
+ydbm epochs 200
+
+['lat', 'magnetometer_y', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']	0.9887
+ydbm epochs 200
+
+['lon', 'magnetometer_x', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']	0.9684
+ydbm epochs 200
+
+['lon', 'magnetometer_y', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']	0.9494
+ydbm epochs 200
+
+['magnetometer_x', 'magnetometer_y', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']	0.9874
+ydbm epochs 200
+
+python rnn.py --dbm --epochs 500 --batch_size 20 --tensorboard --features bear heading lat magnetometer_x magnetometer_y magnetometer_z	0.228	0.9037
+ydbm epochs 500 batch_size 20
+
+python rnn.py --dbm --epochs 500 --batch_size 20 --tensorboard --features heading lat lon magnetometer_x magnetometer_y magnetometer_z	0.3297	0.8445
+ydbm epochs 500 batch_size 20

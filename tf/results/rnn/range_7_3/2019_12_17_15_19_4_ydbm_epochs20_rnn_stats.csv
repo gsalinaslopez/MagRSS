@@ -1,0 +1,170 @@
+iteration,bpnn_acc
+"['bear', 'heading', 'lat', 'lon', 'magnetometer_x', 'magnetometer_y', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5142
+iteration,bpnn_acc
+"['bear', 'heading', 'lat', 'lon', 'magnetometer_x', 'magnetometer_y', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5681
+iteration,bpnn_acc
+"['bear', 'heading', 'lat', 'lon', 'magnetometer_x', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5530
+iteration,bpnn_acc
+"['bear', 'heading', 'lat', 'lon', 'magnetometer_y', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5108
+iteration,bpnn_acc
+"['bear', 'heading', 'lat', 'magnetometer_x', 'magnetometer_y', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.6271
+iteration,bpnn_acc
+"['bear', 'heading', 'lon', 'magnetometer_x', 'magnetometer_y', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5083
+iteration,bpnn_acc
+"['bear', 'lat', 'lon', 'magnetometer_x', 'magnetometer_y', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5256
+iteration,bpnn_acc
+"['heading', 'lat', 'lon', 'magnetometer_x', 'magnetometer_y', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.6218
+iteration,bpnn_acc
+"['bear', 'heading', 'lat', 'lon', 'magnetometer_x', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5057
+iteration,bpnn_acc
+"['bear', 'heading', 'lat', 'lon', 'magnetometer_y', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5642
+iteration,bpnn_acc
+"['bear', 'heading', 'lat', 'lon', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5554
+iteration,bpnn_acc
+"['bear', 'heading', 'lat', 'magnetometer_x', 'magnetometer_y', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.6337
+iteration,bpnn_acc
+"['bear', 'heading', 'lat', 'magnetometer_x', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5173
+iteration,bpnn_acc
+"['bear', 'heading', 'lat', 'magnetometer_y', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5142
+iteration,bpnn_acc
+"['bear', 'heading', 'lon', 'magnetometer_x', 'magnetometer_y', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5782
+iteration,bpnn_acc
+"['bear', 'heading', 'lon', 'magnetometer_x', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5057
+iteration,bpnn_acc
+"['bear', 'heading', 'lon', 'magnetometer_y', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5525
+iteration,bpnn_acc
+"['bear', 'heading', 'magnetometer_x', 'magnetometer_y', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.6576
+iteration,bpnn_acc
+"['bear', 'lat', 'lon', 'magnetometer_x', 'magnetometer_y', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5270
+iteration,bpnn_acc
+"['bear', 'lat', 'lon', 'magnetometer_x', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5394
+iteration,bpnn_acc
+"['bear', 'lat', 'lon', 'magnetometer_y', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5450
+iteration,bpnn_acc
+"['bear', 'lat', 'magnetometer_x', 'magnetometer_y', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5174
+iteration,bpnn_acc
+"['bear', 'lon', 'magnetometer_x', 'magnetometer_y', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5075
+iteration,bpnn_acc
+"['heading', 'lat', 'lon', 'magnetometer_x', 'magnetometer_y', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5955
+iteration,bpnn_acc
+"['heading', 'lat', 'lon', 'magnetometer_x', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.6051
+iteration,bpnn_acc
+"['heading', 'lat', 'lon', 'magnetometer_y', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.6009
+iteration,bpnn_acc
+"['heading', 'lat', 'magnetometer_x', 'magnetometer_y', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.7349
+iteration,bpnn_acc
+"['heading', 'lon', 'magnetometer_x', 'magnetometer_y', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.6046
+iteration,bpnn_acc
+"['lat', 'lon', 'magnetometer_x', 'magnetometer_y', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5984
+iteration,bpnn_acc
+"['bear', 'heading', 'lat', 'lon', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5501
+iteration,bpnn_acc
+"['bear', 'heading', 'lat', 'magnetometer_x', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5254
+iteration,bpnn_acc
+"['bear', 'heading', 'lat', 'magnetometer_y', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.6161
+iteration,bpnn_acc
+"['bear', 'heading', 'lat', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.6191
+iteration,bpnn_acc
+"['bear', 'heading', 'lon', 'magnetometer_x', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5720
+iteration,bpnn_acc
+"['bear', 'heading', 'lon', 'magnetometer_y', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5174
+iteration,bpnn_acc
+"['bear', 'heading', 'lon', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5643
+iteration,bpnn_acc
+"['bear', 'heading', 'magnetometer_x', 'magnetometer_y', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5141
+iteration,bpnn_acc
+"['bear', 'heading', 'magnetometer_x', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.6505
+iteration,bpnn_acc
+"['bear', 'heading', 'magnetometer_y', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5225
+iteration,bpnn_acc
+"['bear', 'lat', 'lon', 'magnetometer_x', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5057
+iteration,bpnn_acc
+"['bear', 'lat', 'lon', 'magnetometer_y', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5166
+iteration,bpnn_acc
+"['bear', 'lat', 'lon', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5100
+iteration,bpnn_acc
+"['bear', 'lat', 'magnetometer_x', 'magnetometer_y', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5947
+iteration,bpnn_acc
+"['bear', 'lat', 'magnetometer_x', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.6038
+iteration,bpnn_acc
+"['bear', 'lat', 'magnetometer_y', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5984
+iteration,bpnn_acc
+"['bear', 'lon', 'magnetometer_x', 'magnetometer_y', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5385
+iteration,bpnn_acc
+"['bear', 'lon', 'magnetometer_x', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5401
+iteration,bpnn_acc
+"['bear', 'lon', 'magnetometer_y', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5436
+iteration,bpnn_acc
+"['bear', 'magnetometer_x', 'magnetometer_y', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.6295
+iteration,bpnn_acc
+"['heading', 'lat', 'lon', 'magnetometer_x', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5895
+iteration,bpnn_acc
+"['heading', 'lat', 'lon', 'magnetometer_y', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5200
+iteration,bpnn_acc
+"['heading', 'lat', 'lon', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5856
+iteration,bpnn_acc
+"['heading', 'lat', 'magnetometer_x', 'magnetometer_y', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5114
+iteration,bpnn_acc
+"['heading', 'lat', 'magnetometer_x', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.7401
+iteration,bpnn_acc
+"['heading', 'lat', 'magnetometer_y', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.7372
+iteration,bpnn_acc
+"['heading', 'lon', 'magnetometer_x', 'magnetometer_y', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5091
+iteration,bpnn_acc
+"['heading', 'lon', 'magnetometer_x', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.6177
+iteration,bpnn_acc
+"['heading', 'lon', 'magnetometer_y', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5096
+iteration,bpnn_acc
+"['heading', 'magnetometer_x', 'magnetometer_y', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.7721
+iteration,bpnn_acc
+"['lat', 'lon', 'magnetometer_x', 'magnetometer_y', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5774
+iteration,bpnn_acc
+"['lat', 'lon', 'magnetometer_x', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5930
+iteration,bpnn_acc
+"['lat', 'lon', 'magnetometer_y', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5666
+iteration,bpnn_acc
+"['lat', 'magnetometer_x', 'magnetometer_y', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5206
+iteration,bpnn_acc
+"['lon', 'magnetometer_x', 'magnetometer_y', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5059
+iteration,bpnn_acc
+"['bear', 'heading', 'lat', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.6223
+iteration,bpnn_acc
+"['bear', 'heading', 'lon', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5151
+iteration,bpnn_acc
+"['bear', 'heading', 'magnetometer_x', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5160
+iteration,bpnn_acc
+"['bear', 'heading', 'magnetometer_y', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5040
+iteration,bpnn_acc
+"['bear', 'heading', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.6595
+iteration,bpnn_acc
+"['bear', 'lat', 'lon', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5230
+iteration,bpnn_acc
+"['bear', 'lat', 'magnetometer_x', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5180
+iteration,bpnn_acc
+"['bear', 'lat', 'magnetometer_y', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5192
+iteration,bpnn_acc
+"['bear', 'lat', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5100
+iteration,bpnn_acc
+"['bear', 'lon', 'magnetometer_x', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5115
+iteration,bpnn_acc
+"['bear', 'lon', 'magnetometer_y', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5297
+iteration,bpnn_acc
+"['bear', 'lon', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5077
+iteration,bpnn_acc
+"['bear', 'magnetometer_x', 'magnetometer_y', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.6307
+iteration,bpnn_acc
+"['bear', 'magnetometer_x', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.6263
+iteration,bpnn_acc
+"['bear', 'magnetometer_y', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5139
+iteration,bpnn_acc
+"['heading', 'lat', 'lon', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5011
+iteration,bpnn_acc
+"['heading', 'lat', 'magnetometer_x', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.7540
+iteration,bpnn_acc
+"['heading', 'lat', 'magnetometer_y', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5166
+iteration,bpnn_acc
+"['heading', 'lat', 'magnetometer_z', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5213
+iteration,bpnn_acc
+"['heading', 'lon', 'magnetometer_x', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.5152
+iteration,bpnn_acc
+"['heading', 'lon', 'magnetometer_y', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.6189

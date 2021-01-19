@@ -1,0 +1,74 @@
+0:
+x->
+y-> 0 - 16: downshift from 54 to 24
+z-> 
+
+1:
+x-> 0 - 471: downshift from 135 to 45
+y-> 0 - 6: downshift from 45 to 33
+z-> 0 - 471: downshift from 57 to 34
+
+2:
+x-> 
+y-> 0 - 6: delete
+z->
+
+3:
+x-> 0 - 23: delete, 4322 - end: delete
+y-> 0 - 23: downshift from 55 to 25
+z->
+
+5:
+x-> 0 - 543: downshift from 89 to 49
+y-> 0 - 543: upshift from -54 to -34, 0 - 2088: downshift from to 47 to 27
+z->
+
+6:
+x-> 4290 - end: downshift from -29 to -50
+y->
+z->
+
+7:
+x-> 0 - 9: delete, 10 - 2826 downshift from 49 to 20
+y->
+z->
+
+10:
+x-> 0 - 54: delete, 4612 - end: delete
+y->
+z->
+
+11:
+x-> 2249 - 4448: downshift from 49 to 25
+y->
+z->
+
+12:
+x-> 0 - 1590: upshift from 36 to 49
+y->
+z->
+
+16:
+x-> 0 - 30: delete, 108 - 128: downshift from 28 to 6, 3073 - end: delete 
+y-> 
+z->
+
+18:
+x-> 0 - 19: delete, 2697 - end: delete
+y->
+z->
+
+20:
+x-> 3654 - end: delete
+y->
+z->
+
+22:
+x-> 0 - 64: downshift from 86 to -2
+y-> 0 - 69: downshift from 54 to 38
+z->
+
+23:
+x-> 2347 - 2623: downshift from 130 to 49
+y-> 2734 - end: downshift from -31 to -39
+z-> 2347 - 2623: downshift from 56 to 30

@@ -1,0 +1,2 @@
+iteration,bpnn_acc
+"['acc', 'bear', 'bearAcc', 'heading', 'intersection_points', 'lat', 'lon', 'magnetometer_x', 'magnetometer_y', 'magnetometer_z', 'timestamp', '131_dbm', '181_dbm', '187_dbm', '188_dbm', '189_dbm', '195_dbm', '196_dbm', '200_dbm', '201_dbm', '208_dbm', '246_dbm', '254_dbm', '25_dbm', '33_dbm', '419_dbm', '443_dbm', '459_dbm', '476_dbm', '484_dbm', '97_dbm']",0.8914

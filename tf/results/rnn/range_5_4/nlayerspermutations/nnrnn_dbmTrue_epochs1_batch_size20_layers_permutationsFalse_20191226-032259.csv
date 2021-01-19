@@ -1,0 +1,7 @@
+iteration,loss,acc,binary_crossentropy,val_loss,val_acc,val_binary_crossentropy
+python rnn.py --dbm --epochs 1 --batch_size 20 --tensorboard --features acc bear heading lat lon,0.6960,0.5112,0.6990,0.6931,0.5211,0.6931
+python rnn.py --dbm --epochs 1 --batch_size 20 --tensorboard --features acc bear heading lat,0.6958,0.5093,0.6981,0.6919,0.5256,0.6919
+python rnn.py --dbm --epochs 1 --batch_size 20 --tensorboard --features acc bear heading lon,0.6960,0.5073,0.6999,0.6933,0.5085,0.6933
+python rnn.py --dbm --epochs 1 --batch_size 20 --tensorboard --features acc bear lat lon,0.6956,0.5146,0.6974,0.6912,0.5315,0.6912
+python rnn.py --dbm --epochs 1 --batch_size 20 --tensorboard --features acc heading lat lon,0.6981,0.5001,0.7030,0.6927,0.5201,0.6927
+python rnn.py --dbm --epochs 1 --batch_size 20 --tensorboard --features bear heading lat lon,0.6959,0.5093,0.6982,0.6921,0.5213,0.6921

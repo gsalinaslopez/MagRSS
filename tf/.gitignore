@@ -1,0 +1,7 @@
+*~
+*.swp
+/tensorflow-env
+/.venv
+/.vscode
+Pipfile
+Pipfile.lock

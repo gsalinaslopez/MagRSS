@@ -1,0 +1,2 @@
+iteration,loss,acc,binary_crossentropy,val_loss,val_acc,val_binary_crossentropy
+python bpnn_2.py --train_file /home/gio/MagRss/tf/train/files/m1/master_0.csv --dbm --epochs 1000 --batch_size 1 --tensorboard --features lat lon bear heading magx_lowess magy_lowess magz_lowess mag_lowess,7.2641,0.5291,7.2642,7.4127,0.5194,7.4126

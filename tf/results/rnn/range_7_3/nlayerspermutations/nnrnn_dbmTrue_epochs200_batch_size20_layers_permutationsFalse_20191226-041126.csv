@@ -1,0 +1,4 @@
+iteration,loss,acc,binary_crossentropy,val_loss,val_acc,val_binary_crossentropy
+python rnn.py --dbm --epochs 200 --batch_size 20 --tensorboard --features bear heading lat lon magnetometer_x magnetometer_y magnetometer_z,0.6360,0.6145,0.6354,0.7633,0.5177,0.7633
+python rnn.py --dbm --epochs 200 --batch_size 20 --tensorboard --features bear heading lat lon magnetometer_x magnetometer_y,0.6728,0.5592,0.6727,0.7174,0.5273,0.7174
+python rnn.py --dbm --epochs 200 --batch_size 20 --tensorboard --features bear heading lat lon magnetometer_x magnetometer_z,0.6391,0.6194,0.6354,0.7615,0.5034,0.7615
