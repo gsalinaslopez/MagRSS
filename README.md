@@ -5,8 +5,9 @@ This project aims to recollect fingerprint data from smartphone's built-in magne
 By doing a mapping between...:
 
 ```
- { Geomagnetic field strength  and Cellular signal strength }
-↳{Road Lane Position a.k.a *Road* or *Sidewalk*}
+{ Geomagnetic field strength and Cellular signal strength }
+                           ↓
+     {Road Lane Position a.k.a *Road* or *Sidewalk*}
 ```
 
 ...And training a Neural Network with the above data *(and some crowdsourcing of course!)*, we can hopefuly localize users/smartphones position relative to the road using only the latter sensors (magnetometer and cellular) without having to rely on the resource-intensive GPS module.
