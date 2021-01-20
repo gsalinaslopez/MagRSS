@@ -77,3 +77,52 @@ We log and plot the attached cells and their intensity in dBm, and also overlay 
 Notice however that despite collecting data multiple times over the same closed loop, there are some cells *(cellID443, cellID476, cellID188, and cellID 195 in this case)* that do not 'appear' (the smartphone does not connect to) at all times.
 
 In this case, we performed a one-way Analysis of Variance (ANOVA) between window period to clean-up these residual signals.
+
+## Training
+
+* Sequential Multi-layer perceptron
+  * Two hidden layers, 128 nodes each
+  * ReLU activation function
+* Dropout layers
+  * 0.2 fraction for the nodes to be dropped per training Epoch
+* Weight regularization
+  * L2 = 0.001 regularizer to drive weigths that are close to 0
+
+```
+-----------------------------------------------------------------
+Layer (type)                 Output Shape              Param #
+=================================================================
+dense_features (DenseFeature multiple                  0
+-----------------------------------------------------------------
+dense (Dense)                multiple                  1920
+-----------------------------------------------------------------
+dropout (Dropout)            multiple                  0
+-----------------------------------------------------------------
+dense_1 (Dense)              multiple                  16512
+-----------------------------------------------------------------
+dropout_1 (Dropout)          multiple                  0
+-----------------------------------------------------------------
+dense_2 (Dense)              multiple                  129
+=================================================================
+Total params: 18,561
+Trainable params: 18,561
+Non-trainable params: 0
+-----------------------------------------------------------------
+```
+
+### Evaluation
+
+| loss | acc | binary_crossentropy | val_loss | val_acc | val_binary_crossentropy |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| 0.4660 | **0.8762** | 0.4516 | 0.3853 | **0.9022** | 0.3709 |
+
+| | |
+| :---: | :---: |
+![Magnetometer Frequency](docs/assets/nn_acc.png) | ![Magnetometer Autocorrelation](docs/assets/nn_binary_crossentropy.png) |
+
+
+## Future work
+
+To expand the project, more fingerprints from more locations should be collected and further cleaned up. Entries used for the proof of concept are located at ```tf/train/files/```
+
+Different NN models are also to be evaluated. Currently the script ```tf/train/nn_launcher.py``` facilitates the configuration and execution of different configurations of NN models and layouts.
