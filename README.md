@@ -31,7 +31,7 @@ Depending on where the measurements are being taken
 
 ![Sensors output](docs/assets/tmi_plot.PNG)
 
-The log from the sensors should provide a distinction between either of both lanes and should be suitable for labeling the entries and training a ML model.
+The log from the sensors should provide a distinction between either lane and should be suitable for labeling the entries and training a ML model.
 
 ## Usage Flow
 
